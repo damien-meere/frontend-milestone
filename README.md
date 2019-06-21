@@ -37,6 +37,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 ### Media
 <!--INclude details of image locations (BT??)-->
+A number of photos were taken from [Pexels](https://www.pexels.com/), a stock image library. In particular, the main image behind the jumbotron on the index page.
 
 ### Acknowledgements
 <!--Achnowledge any third-party utilities employed in the development of this site-->

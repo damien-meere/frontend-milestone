@@ -20,25 +20,24 @@
     border: 0;
 }
 
+/*Jumbotron alterations*/
 
+.jumbotron {
+    background-color: transparent;
+}
 
-/*Callout Container*/
-.callout-container {
-    /*VH = Viewport Height*/
-    height: 100vh;
-    
-    /*Align the Callout container to centre of the viewport*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+.jumbotron-header {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 
-/*Welcome Container*/
+/*Shared Container Attributes*/
 
-.welcome-container{
+.callout-container,
+.welcome-container,
+.cert-container {
     /*VH = Viewport Height*/
     height: 100vh;
     
@@ -48,6 +47,27 @@
     justify-content: center;
 
     position: relative;
-    
-    
 }
+
+.callout-container {
+    /*Adding a full width backgroud image*/
+    background: url(/images/pexels-photo-1181396.jpeg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*background image is too colorful apply an overlay to tone it down*/
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*red green blue Aplha, alpha 1 = 100% visible, 0 = invisible*/
+    background-color: rgba(232, 236, 241, .4);
+}
+
+
