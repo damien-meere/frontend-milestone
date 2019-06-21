@@ -1,0 +1,53 @@
+/*Navbar Styling*/
+
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+
+
+/*Callout Container*/
+.callout-container {
+    /*VH = Viewport Height*/
+    height: 100vh;
+    
+    /*Align the Callout container to centre of the viewport*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+/*Welcome Container*/
+
+.welcome-container{
+    /*VH = Viewport Height*/
+    height: 100vh;
+    
+    /*Align the container to centre of the viewport*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    
+    
+}

@@ -1,5 +1,5 @@
 # Damien Meere - BT Ireland
-Stream One Project: User-Centric Frontend Development - Code Institute 
+User-Centric Frontend Development Milestone Project - Code Institute 
 
 This project website will highlight my capability to employ the various tools illustrated through out the User-centric frontend development section of the Code Institute programme. This site will be a mock-up of a training company site. This will house information from three different strands of training - Technical, Management and Soft-Skills training.
 
