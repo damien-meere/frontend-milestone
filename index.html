@@ -7,17 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Requisite Sytlesheets - Bootstrap, Fontawesome -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Eolas Training Solutions</title>
 </head>
 
 <body>
     <!--Navbar-->
     <div class="container-fluid nav-container">
-        <nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
             <a href="/" class="navbar-brand">Eolas Training</a>
 
             <!-- creating a collapsible navbarNavDropdown div for mobile devices, so as not to eat up realestate on the screen -->
@@ -59,8 +59,6 @@
                 <p class="navbar-text my-auto mr-2"><i>Delivering Exceptional Training</i></p>
                 <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#inTouchModal">Get In Touch</button>
             </div>
-
-
         </nav>
     </div>
 
@@ -76,7 +74,7 @@
                     <h1 class="jumbotron-header d-block d-md-none">Exceptional Training Delivery</h1>
                     <!-- hr = Horizontal rule -->
                     <hr class="block-divider block-divider--short">
-                    <p class="lead">Let us help you ensure the maximum return for your investment</p>
+                    <p class="lead">Let us help you achieve all of your educational goals while ensuring the maximum return for your investment</p>
                 </section>
             </div>
         </div>
@@ -121,8 +119,17 @@
                 <p class="inline-block">
                     Block C, Dundrum Business Park, Dublin 14
                 </p>
-                <!--Map object, ensure only visible on large screens-->
-                <iframe  class="d-none d-xl-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d596.0644018487607!2d-6.244439270730814!3d53.3028326001729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867094556fc6bed%3A0x7eed156a9d541b63!2sBT!5e0!3m2!1sen!2sie!4v1561150143818!5m2!1sen!2sie" width="400" height="300" frameborder="0" style="border:0" allowfullscreen ></iframe>
+                <!--Map object, only visible on large screens, on smaller screens, just include Google Maps link-->
+                <div class="d-none d-xl-block">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d596.0644018487607!2d-6.244439270730814!3d53.3028326001729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867094556fc6bed%3A0x7eed156a9d541b63!2sBT!5e0!3m2!1sen!2sie!4v1561150143818!5m2!1sen!2sie"
+                        width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="d-block d-lg-none">
+                    <!-- On smaller screens, instead of the map object, include a button linking to the Google Maps site -->
+                    <button type="button" class="btn btn-secondary" href="https://goo.gl/maps/xej5wPTEFiJMdCRTA">Find us here</button>
+                </div>
+
+
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Popular Courses</h5>

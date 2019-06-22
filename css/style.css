@@ -1,3 +1,9 @@
+/*Font Styling*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 /*Navbar Styling*/
 
 .nav-container {
@@ -23,7 +29,7 @@
 /*Jumbotron alterations*/
 
 .jumbotron {
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 .jumbotron-header {
@@ -71,3 +77,24 @@
 }
 
 
+/*Buttons Styling*/
+
+.btn--cta {
+    font-weight: bold;
+    width: 190px;
+    border-radius: 22px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #CFD0D6;
+    border-color: #CFD0D6;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #7D7D7E;
+    border-color: #7D7D7E;
+}
