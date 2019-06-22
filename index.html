@@ -64,7 +64,7 @@
 
     <!--Main callout-->
     <div class="callout-container container-fluid mt-3">
-        <div class="opaque-overlay">&nbsp;</div>
+        <div class="image-overlay">&nbsp;</div>
         <div class="row">
             <!-- Callout will be the same (full width) on all screen sizes -->
             <div class="col-12">
@@ -82,37 +82,63 @@
 
 
     <!-- Welcome section -->
-    <div class="container-wrapper">
-        <div class="container welcome-container">
-            <section class="welcome">
-                <div class="row">
-                    <div class="col-12 page-header my-5">
-                        <h2 class="text-uppercase">Welcome to Eolas</h2>
-                        <hr class="block-divider block-divider--short">
-                    </div>
+
+    <div class="welcome-container container-fluid">
+        <section class="welcome">
+            <div class="row">
+                <div class="col-12 page-header my-5">
+                    <h2 class="text-uppercase">Welcome to Eolas</h2>
+                    <hr class="block-divider block-divider--short">
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     </div>
+
 
 
     <!--Certifications Breakown-->
-    <div class="container-wrapper">
-        <div class="container cert-container text-center">
-            <section class="certification">
-                <div class="row">
-                    <div class="col-12 page-header my-5">
-                        <h2 class="text-uppercase">Internationaly Recognised Certifications</h2>
-                        <hr class="block-divider block-divider--short">
-                        <p class="lead">Eolas can offer you access to valuable Internationally Recognised Certifications, through our world-renowned certifications partners</p>
+    <div class="cert-container container-fluid">
+        <section class="certification">
+            
+            <div class="row">
+                <div class="col-12 page-header my-5">
+                    <h2 class="text-uppercase text-center">Internationally Recognised Certifications</h2>
+                    <hr class="block-divider block-divider--short">
+                    <p class="lead">Eolas can offer you access to valuable Internationally Recognised Certifications, through our world-renowned certifications partners</p>
+                </div>
+            </div>
+            <!--Images change from rectangles to small rounded circles on small screens (i.e. Phones)-->
+            <div class="row">
+                <div class="media">
+                    <div class="d-none d-sm-block">
+                        <img src="images/cisco_logo.jpg" class="mr-3 my-3 rounded img-thumbnail mx-auto" height=100 width=200>
+                        <img src="images/ITIL-Logo-RGB.jpg" class="mr-3 my-3 rounded img-thumbnail mx-auto" height=100 width=200>
+                        <img src="images/junipernetworkslogo-580x358.jpg" class="mr-3 my-3 rounded img-thumbnail mx-auto" height=100 width=200>
+                        <img src="images/nokia_logo.jpg" class="mr-3 my-3 rounded img-thumbnail mx-auto" height=100 width=200>
+                        <img src="images/PRINCE2_Training_Organization.jpg" class="mr-3 my-3 rounded img-thumbnail mx-auto" height=100 width=200>
+                        <img src="images/QQI_logo.jpg" class="mr-3 my-3 rounded img-thumbnail mx-auto" height=100 width=200>
+                        <img src="images/six_sigma_logo.jpg" class="mr-3 my-3 rounded img-thumbnail mx-auto" height=100 width=200>
+                    </div>
+                    <div class="d-block d-sm-none">
+                        <img src="images/cisco_logo.jpg" class="mr-3 my-3 rounded-circle img-thumbnail mx-auto" height=100 width=100>
+                        <img src="images/ITIL-Logo-RGB.jpg" class="mr-3 my-3 rounded-circle img-thumbnail mx-auto" height=100 width=100>
+                        <img src="images/junipernetworkslogo-580x358.jpg" class="mr-3 my-3 rounded-circle img-thumbnail mx-auto" height=100 width=100>
+                        <img src="images/nokia_logo.jpg" class="mr-3 my-3 rounded-circle img-thumbnail mx-auto" height=100 width=100>
+                        <img src="images/PRINCE2_Training_Organization.jpg" class="mr-3 my-3 rounded-circle img-thumbnail mx-auto" height=100 width=100>
+                        <img src="images/QQI_logo.jpg" class="mr-3 my-3 rounded-circle img-thumbnail mx-auto" height=100 width=100>
+                        <img src="images/six_sigma_logo.jpg" class="mr-3 my-3 rounded-circle img-thumbnail mx-auto" height=100 width=100>
                     </div>
                 </div>
-            </section>
-        </div>
+
+            </div>
+            <!--<div class="image-overlay">&nbsp;</div>-->
+        </section>
     </div>
 
+
+
     <!--Footer of the Page-->
-    <footer class="container-fluid">
+    <footer class="footer-container container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Eolas Training Solutions</h5>
@@ -126,7 +152,7 @@
                 </div>
                 <div class="d-block d-lg-none">
                     <!-- On smaller screens, instead of the map object, include a button linking to the Google Maps site -->
-                    <button type="button" class="btn btn-secondary" href="https://goo.gl/maps/xej5wPTEFiJMdCRTA">Find us here</button>
+                    <a type="button" class="btn btn-secondary" href="https://goo.gl/maps/xej5wPTEFiJMdCRTA" target="_blank">Find us here</a>
                 </div>
 
 
