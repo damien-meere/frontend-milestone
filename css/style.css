@@ -1,4 +1,4 @@
-/*Font Styling*/
+/*----------------------------------------------------------Font Styling*/
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -26,21 +26,25 @@ body {
     border: 0;
 }
 
-/*Jumbotron alterations*/
+/*----------------------------------------------------------Jumbotron alterations*/
 
 .jumbotron {
-    /*background-color: transparent;*/
+    background-color: transparent;
+    color: white;
 }
 
 .jumbotron-header {
-    color: black;
+    font-size: 60px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 
-/*Shared Container Attributes*/
-.callout-container,.welcome-container,.cert-container {
+/*----------------------------------------------------------Shared Container Attributes*/
+
+.callout-container,
+.welcome-container,
+.cert-container {
     /*VH = Viewport Height*/
     height: 100vh;
     /*Align the container to centre of the viewport*/
@@ -52,7 +56,7 @@ body {
 
 .callout-container {
     /*Adding a full width backgroud image*/
-    background: url(/images/pexels-photo-1181396.jpeg) no-repeat bottom right fixed;
+    background: url(/images/pexels-photo-1181396_v2.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,38 +64,54 @@ body {
 }
 
 .cert-container {
-    width:100%;
-    margin:0;
+    width: 100%;
+    margin: 0;
     color: white;
     /*Adding a full width backgroud image*/
-    background: url(/images/adult-blur-class-239548.jpg) no-repeat bottom right fixed;
+    background: url(/images/adult-blur-class-239548_v2.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+/*Correction, i've altered the images in photoshop in advance*/
+
 /*background image is too bright apply an overlay to tone it down*/
-.image-overlay {
+
+/*.image-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    /*red green blue Aplha, alpha 1 = 100% visible, 0 = invisible*/
-    background-color: rgba(232, 236, 241, .6);
-}
+    background-color: rgba(0, 0, 0, .2);
+}*/
 
 .welcome-container {
-    margin:0;
+    margin: 0;
+    padding: 0;
+    background-color: #d9d9d9;
+}
+
+.welcome-lead {
+    font-size:16px;
+}
+
+.domain {
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+
 }
 
 
-.footer-container{
+
+.footer-container {
     padding-top: 15px;
 }
 
-/*Buttons Styling*/
+/*----------------------------------------------------------Buttons Styling*/
 
 .btn--cta {
     font-weight: bold;
@@ -113,4 +133,30 @@ body {
     border-color: #7D7D7E;
 }
 
-/*Font Styling*/
+/*----------------------------------------------------------Block Dividers*/
+
+.block-divider {
+    height: 6px;
+    border: 0;
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 100px;
+}
+
+/*----------------------------------------------------------Font Alterations*/
+
+.callout-lead {
+    color: #d7dce2;
+    font-size: 35px;
+}
+
+.callout-lead-small {
+    color: #d7dce2;
+    font-size: 30px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
