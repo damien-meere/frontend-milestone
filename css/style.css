@@ -47,6 +47,7 @@ body {
 .cert-container {
     /*VH = Viewport Height*/
     height: 100vh;
+    width: 100%;
     /*Align the container to centre of the viewport*/
     display: flex;
     align-items: center;
@@ -64,7 +65,7 @@ body {
 }
 
 .cert-container {
-    width: 100%;
+    /*width: 100%;*/
     margin: 0;
     color: white;
     /*Adding a full width backgroud image*/
@@ -76,7 +77,6 @@ body {
 }
 
 /*Correction, i've altered the images in photoshop in advance*/
-
 /*background image is too bright apply an overlay to tone it down*/
 /*.image-overlay {
     position: absolute;
@@ -88,17 +88,15 @@ body {
 }*/
 
 .welcome-container {
-    margin: 0;
-    padding: 0;
     background-color: #d9d9d9;
 }
 
 .welcome-header {
-    margin:0;
+    margin: 0;
 }
 
 .welcome-lead {
-    font-size:16px;
+    font-size: 16px;
 }
 
 .domain {
@@ -108,16 +106,18 @@ body {
 
 }
 
-.domain i{
+.domain i {
     margin-bottom: 10px;
     font-size: 45px;
     line-height: 45px;
     text-align: center;
-    
+
 }
 
 .footer-container {
     padding-top: 15px;
+    background-color: #75796D;
+    width: 100%;
 }
 
 /*----------------------------------------------------------Buttons Styling*/
@@ -169,3 +169,52 @@ body {
 .uppercase {
     text-transform: uppercase;
 }
+
+
+/*----------------------------------------------------------Footer alterations*/
+
+.social-links li a i {
+    width: 45px;
+    height: 45px;
+    padding: 20px 0;
+    /*if you set the border-radius to 50% when something has equal height and width, then you get a circle.*/
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 7px;
+    vertical-align: middle;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+
+.social-links li a i:hover {
+    background: #696373;
+
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+
+
+/*--------------------------------------------------Image Overlay*/
+
+
+.partner-image {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.media-image:hover .partner-image {
+  opacity: 0.5;
+}
+
