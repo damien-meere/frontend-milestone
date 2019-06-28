@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- The Viewport Tag is required to scale the content for mobiel devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Requisite Sytlesheets - Bootstrap, Fontawesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Eolas Training - Contact Us</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="container-fluid nav-container">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+            <a href="/" class="navbar-brand">Eolas Training</a>
+
+            <!-- creating a collapsible navbarNavDropdown div for mobile devices, so as not to eat up realestate on the screen -->
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- three bar icon for collapsed menu button-->
+            <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <!-- Create menu with navigation links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+
+                    <!--Creating Dropdown items to link to the various parts of the three training pages-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="technical.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technical</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Cisco Networking</a>
+                            <a class="dropdown-item" href="#">Nokia Networking</a>
+                            <a class="dropdown-item" href="#">Cybersecurity</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="professional.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Professional Development</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Management & Leadership</a>
+                            <a class="dropdown-item" href="#">Organisational Change</a>
+                            <a class="dropdown-item" href="#">Personal Skills</a>
+                        </div>
+                    </li>
+                    <!--<li class="nav-item mr-2"><a class="nav-link" href="/">Technical</a></li>-->
+                    <!--<li class="nav-item mr-2"><a class="nav-link" href="/">Soft-Skills</a></li>-->
+                    <li class="nav-item mr-2"><a class="nav-link" href="project.html"> Project Management</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!--Marketing text + Get in Touch button visible on medium screens and above -->
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2"><i>Delivering Exceptional Training</i></p>
+                <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#inTouchModal">Get In Touch</button>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer of the Page-->
+    <footer class="container-fluid footer-container">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Eolas Training Solutions</h5>
+                <p class="inline-block">
+                    Block C, Dundrum Business Park, Dublin 14
+                </p>
+                <!--Map object, only visible on large screens, on smaller screens, just include Google Maps link-->
+                <div class="d-none d-xl-block">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d596.0644018487607!2d-6.244439270730814!3d53.3028326001729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867094556fc6bed%3A0x7eed156a9d541b63!2sBT!5e0!3m2!1sen!2sie!4v1561150143818!5m2!1sen!2sie"
+                        width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="d-block d-lg-none">
+                    <!-- On smaller screens, instead of the map object, include a button linking to the Google Maps site -->
+                    <a type="button" class="btn btn-secondary" href="https://goo.gl/maps/xej5wPTEFiJMdCRTA" target="_blank">Find us here</a>
+                </div>
+
+
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Popular Courses</h5>
+                <p class="inline-block">
+
+                    <!--Include Links to main programmes-->
+
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social</h5>
+                <!--unordered list has Bootstrap's default class of list-inline-->
+                <!--all items in a list-inline class must use the list-inline-item class-->
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="http://www.facebook.com">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <!--Screen Reader Only (replace icon with text)-->
+                            <span class="sr-only">Facebook</span>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="http://www.twitter.com">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <!--Screen Reader Only (replace icon with text)-->
+                            <span class="sr-only">Twitter</span>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="http://www.linkedin.com">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <!--Screen Reader Only (replace icon with text)-->
+                            <span class="sr-only">LinkedIn</span>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="http://www.pinterest.com">
+                            <i class="fab fa-pinterest" aria-hidden="true"></i>
+                            <!--Screen Reader Only (replace icon with text)-->
+                            <span class="sr-only">Pinterest</span>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="http://www.instagram.com">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <!--Screen Reader Only (replace icon with text)-->
+                            <span class="sr-only">Instagram</span>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="http://www.youtube.com">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <!--Screen Reader Only (replace icon with text)-->
+                            <span class="sr-only">YouTube</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Get in Touch Modal (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="inTouchModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Get in Touch</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Pasting a basic form element from Bootstrap here for a form -->
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="col">
+                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Adding Javascript to site last, so as not to delay the page loading -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

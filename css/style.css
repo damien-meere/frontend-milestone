@@ -77,7 +77,9 @@ body {
 }
 
 /*Correction, i've altered the images in photoshop in advance*/
+
 /*background image is too bright apply an overlay to tone it down*/
+
 /*.image-overlay {
     position: absolute;
     top: 0;
@@ -203,18 +205,79 @@ body {
     padding-bottom: 15px;
 }
 
+/*----------------------------------------------------------Certification Section*/
 
-
-/*--------------------------------------------------Image Overlay*/
-
-
-.partner-image {
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
+/*.partner1 {
+    background: url(/images/cisco_logo.jpg) 0 0 no-repeat;
 }
 
-.media-image:hover .partner-image {
-  opacity: 0.5;
+.partner2 {
+    background: url(/images/nokia_logo.jpg) 0 0 no-repeat;
 }
 
+.partner3 {
+    background: url(/images/junipernetworkslogo-580x358.jpg) 0 0 no-repeat;
+}
+
+.partner4 {
+    background: url(/images/PRINCE2_Training_Organization.jpg) 0 0 no-repeat;
+}*/
+
+.partners {
+    text-align: center;
+}
+
+.partner1,
+.partner2,
+.partner3,
+.partner4 {
+    background-size: cover;
+    position: relative;
+    /*    width: 210px;
+    max-width: 100%;
+    max-height: 100%;*/
+    padding: 10px;
+}
+
+.partner1:hover .overlay-effect,
+.partner2:hover .overlay-effect,
+.partner3:hover .overlay-effect,
+.partner4:hover .overlay-effect {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.overlay-effect {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(126,138,148, 0.3);
+    overflow: hidden;
+}
+
+.partner1 a,
+.partner2 a,
+.partner3 a,
+.partner4 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.partner1 h3,
+.partner2 h3,
+.partner3 h3,
+.partner4 h3 {
+    padding: 15px 30px;
+}
+
+.partner1 img,
+.partner2 img,
+.partner3 img,
+.partner4 img {
+
+    width: 100%
+}
