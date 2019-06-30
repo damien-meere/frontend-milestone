@@ -44,12 +44,11 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Management & Leadership</a>
                             <a class="dropdown-item" href="#">Organisational Change</a>
-                            <a class="dropdown-item" href="#">Personal Skills</a>
                         </div>
                     </li>
                     <!--<li class="nav-item mr-2"><a class="nav-link" href="/">Technical</a></li>-->
                     <!--<li class="nav-item mr-2"><a class="nav-link" href="/">Soft-Skills</a></li>-->
-                    <li class="nav-item mr-2"><a class="nav-link" href="project.html"> Project Management</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="soft-skills.html">Personal/Soft-Skills</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -68,14 +67,16 @@
         <div class="row">
             <!-- Callout will be the same (full width) on all screen sizes -->
             <div class="col-12">
-                <section class="callout jumbotron text-center">
+                <section class="callout jumbotron tech-jumbo text-center">
                     <!--Header altered depending on screen size, less text on mobile device-->
-                    <h1 class="jumbotron-header d-none d-lg-block">Looking for Exceptional Training for you and your company?</h1>
-                    <h1 class="jumbotron-header d-block d-md-none">Exceptional Training Delivery</h1>
+                    <h1 class="jumbotron-header d-none d-lg-block">Build your Advanced Technical Skills with one of our Accredited Training Programmes</h1>
+                    <h1 class="jumbotron-header d-block d-md-none">Technical Training</h1>
                     <!-- hr = Horizontal rule -->
                     <hr class="block-divider">
-                    <p class="callout-lead d-none d-lg-block">Let us help you achieve all of your educational goals while ensuring the maximum return for your investment. Be sure to speak with one of our representatives before booking</p>
-                    <p class="callout-lead-small d-block d-md-none">Let us help you achieve all of your educational goals while ensuring the maximum return for your investment</p>
+                    <p class="tech-lead d-none d-lg-block">Our Routing and Switching training programmes ensure that you have the knowledge and skills to install, configure, operate, and troubleshoot routed and switched networks from top technology providers such as Cisco, Nokia and Juniper.
+                        AS well as this, Data breaches are happening at alarming rates. It’s no longer a question of if a breach will happen but when. Cybersecurity has changed from an IT only issue to an organisational problem. Professionals at all levels
+                        must be capable ot engaging with, and adhereing to company security polocies.</p>
+                    <p class="callout-lead-small d-block d-md-none">Our training programmes cover advanced routing and switching from multiple vendors, as well as Cybersecurity.</p>
                 </section>
             </div>
         </div>
@@ -83,13 +84,33 @@
 
 
 
+    <div class="container-fluid cisco-container mt-3">
+        <div class="row">
+            <div class="col-12">
+                <section class="jumbotron jumbotron-fluid text-center">
+                    <div class="d-none d-sm-block">
+                        <img src="images/cisco_logo.jpg" class="mr-3 my-3 rounded img-thumbnail mx-auto fill" height=100 width=250>
+                    </div>
+                    <h1 class="display-4">Cisco Certifications</h1>
+                    <hr class="my-4">
+                    <p class="lead">Explore our catalog to learn about associate, professional & expert level exams</p>
+                    <p class="d-none d-lg-block">Cisco certifications are one of the most widely respected and valuable certifications in the industry. Whether you are preparing for your CCNA, CCNP, or CCENT exams we have the Cisco certification training you’ll need to succeed. Follow
+                        along with our expert authors as they walk you through dedicated Cisco training that will help give you the knowledge and confidence needed to ace your exam and get the job done in your own environments. Browse our Cisco training
+                        courses to learn more.</p>
+                    <p class="d-block d-lg-none">Cisco Certifications are one of the most widely respected and valuable certifications. Browse our Cisco training courses to learn more.</p>
+                    <div class=" cisco-button">
+                        <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#ccnaModal">Cisco Certified Network Associate</button>
+                        <button type="button" class="btn btn-secondary btn-lg btn-block">Cisco Certified Network Professional</button>
+                        <button type="button" class="btn btn-success btn-lg btn-block">Cisco Certified Internetwork Expert</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
 
 
 
-
-
-
-<!--Footer of the Page-->
+    <!--Footer of the Page-->
     <footer class="container-fluid footer-container">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
@@ -202,6 +223,46 @@
         </div>
     </div>
 
+    <!--Can i write a single modal to cover all courses?, with different courses resulting in different contnet (Javascript)?-->
+    <!-- CCNA (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="ccnaModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">CCNA - Cisco Certified Network Associate</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Description:</h5>
+                            </div>
+                            <div class="col-9">
+                                <p>Develops candidate's knowledge and skills related to network fundamentals, LAN switching technologies, IPv4 and IPv6 routing technologies, WAN technologies, infrastructure services, infrastructure security, and infrastructure management.</p>
+                            </div>
+                        </div>
+                        <br>
+                            <h5>Course Bookings:</h5>
+                            <div class="progress-bar progress-bar-striped .progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuamin="0" aria-valuamax="100" style="width:40%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">40% Booked</span>
+                            <h4 class="progress-label">40% Booked</h4>
+                            </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email">
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Adding Javascript to site last, so as not to delay the page loading -->
