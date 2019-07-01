@@ -58,7 +58,7 @@ body {
 
 .callout-container {
     /*Adding a full width backgroud image*/
-    background: url(/images/pexels-photo-1181396_v2.jpg) no-repeat bottom right fixed;
+    background: url(../images/pexels-photo-1181396_v2.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,7 +70,7 @@ body {
     margin: 0;
     color: white;
     /*Adding a full width backgroud image*/
-    background: url(/images/adult-blur-class-239548_v2.jpg) no-repeat bottom right fixed;
+    background: url(../images/adult-blur-class-239548_v2.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -277,7 +277,7 @@ body {
     position: relative;
 
     /*Adding a full width backgroud image*/
-    background: url(/images/Networking_dark.jpg) no-repeat top left fixed;
+    background: url(../images/Networking_dark.jpg) no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -344,17 +344,17 @@ body {
 
 .cisco-jumbotron {
     /*Adding a full width backgroud image*/
-    background: url(/images/cisco_net_light.jpg) no-repeat top left fixed;
+    background: url(../images/cisco_net_light.jpg) no-repeat top left fixed;
 }
 
 .nokia-jumbotron {
     /*Adding a full width backgroud image*/
-    background: url(/images/nokia_net_light.jpg) no-repeat center center fixed;
+    background: url(../images/nokia_net_light.jpg) no-repeat center center fixed;
 }
 
 .cyber-jumbotron {
     /*Adding a full width backgroud image*/
-    background: url(/images/cybersec_light.jpg) no-repeat center center fixed;
+    background: url(../images/cybersec_light.jpg) no-repeat center center fixed;
 }
 
 .modal {
