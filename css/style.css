@@ -28,7 +28,7 @@ body {
 
 /*----------------------------------------------------------Jumbotron alterations*/
 
-.main-jumbo, 
+.main-jumbo,
 .tech-jumbo {
     background-color: transparent;
     color: white;
@@ -308,7 +308,8 @@ body {
     font-size: 25px;
 }
 
-.cisco-container {
+.cisco-container,
+.nokia-container {
     /*VH = Viewport Height*/
     height: 100vh;
     width: 100%;
@@ -317,8 +318,17 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-
+    
 }
+
+.cisco-container {
+    background-color:#3E4C4F;
+}
+
+.nokia-container{
+    background-color:#5B635A;
+}
+
 
 .cisco-container img {
     padding: 25px;
@@ -328,3 +338,35 @@ body {
     padding: 10px;
 }
 
+.hide {
+    display: none;
+}
+
+.progress-label {
+    color: #555673;
+    padding-left: 10px;
+}
+
+.cisco-jumbotron,
+.nokia-jumbotron {
+    /*Adding a full width backgroud image*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cisco-jumbotron {
+    /*Adding a full width backgroud image*/
+    background: url(/images/cisco_net_light.jpg) no-repeat top left fixed;
+}
+
+.nokia-jumbotron {
+    /*Adding a full width backgroud image*/
+    background: url(/images/nokia_net_light.jpg) no-repeat center center fixed;
+}
+
+
+.modal {
+    background-color:#E1E3DF;
+}
