@@ -208,22 +208,6 @@ body {
 
 /*----------------------------------------------------------Certification Section*/
 
-/*.partner1 {
-    background: url(/images/cisco_logo.jpg) 0 0 no-repeat;
-}
-
-.partner2 {
-    background: url(/images/nokia_logo.jpg) 0 0 no-repeat;
-}
-
-.partner3 {
-    background: url(/images/junipernetworkslogo-580x358.jpg) 0 0 no-repeat;
-}
-
-.partner4 {
-    background: url(/images/PRINCE2_Training_Organization.jpg) 0 0 no-repeat;
-}*/
-
 .partners {
     text-align: center;
 }
@@ -234,9 +218,6 @@ body {
 .partner4 {
     background-size: cover;
     position: relative;
-    /*    width: 210px;
-    max-width: 100%;
-    max-height: 100%;*/
     padding: 10px;
 }
 
@@ -309,7 +290,8 @@ body {
 }
 
 .cisco-container,
-.nokia-container {
+.nokia-container,
+.cyber-container {
     /*VH = Viewport Height*/
     height: 100vh;
     width: 100%;
@@ -329,6 +311,9 @@ body {
     background-color:#5B635A;
 }
 
+.cyber-container{
+    background-color:#A5B8B4;
+}
 
 .cisco-container img {
     padding: 25px;
@@ -348,7 +333,8 @@ body {
 }
 
 .cisco-jumbotron,
-.nokia-jumbotron {
+.nokia-jumbotron, 
+.cyber-jumbotron{
     /*Adding a full width backgroud image*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -366,7 +352,12 @@ body {
     background: url(/images/nokia_net_light.jpg) no-repeat center center fixed;
 }
 
+.cyber-jumbotron {
+    /*Adding a full width backgroud image*/
+    background: url(/images/cybersec_light.jpg) no-repeat center center fixed;
+}
 
 .modal {
     background-color:#E1E3DF;
 }
+

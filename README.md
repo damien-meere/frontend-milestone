@@ -21,7 +21,7 @@ A link to my social media (i.e. LinkedIn profile, GitHub, twitter etc.) are also
 3. Bootstrap (4.3.1)
 
 ## Current Features
-<!--INclude details any third-party utilities employed in the development of this site, and how they are used-->
+This site uses the JSFiddle script to enable the alteration of booking modals, depending on the chosen programme.
 
 ## Future Features 
 In future I would like to link the the booking form illustrating course availability progress bars to a working database in order to give training candidates a live view of available space ont the coure.
@@ -41,6 +41,6 @@ A number of photos were taken from [Pexels](https://www.pexels.com/), a stock im
 
 ### Acknowledgements
 <!--Achnowledge any third-party utilities employed in the development of this site-->
-The JSFiddle Javascript function, which is used to alter the contents of the CCNP booking modal based on the selection of the dropdown menu can be found [Here](http://jsfiddle.net/TLBvx/252/).
+The JSFiddle Javascript function, which is used to alter the contents of the course booking modals based on the selection of the dropdown menu can be found [Here](http://jsfiddle.net/TLBvx/252/).
 
-Adobe Color Wheel (https://color.adobe.com/create) utilised to align color schemes.
+Adobe Color Wheel [Found Here](https://color.adobe.com/create) utilised to align color schemes.

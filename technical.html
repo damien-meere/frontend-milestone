@@ -34,9 +34,9 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="technical.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technical</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Cisco Networking</a>
-                            <a class="dropdown-item" href="#">Nokia Networking</a>
-                            <a class="dropdown-item" href="#">Cybersecurity</a>
+                            <a class="dropdown-item" href="technical.html#cisco">Cisco Networking</a>
+                            <a class="dropdown-item" href="technical.html#nokia">Nokia Networking</a>
+                            <a class="dropdown-item" href="technical.html#cybersecurity">Cybersecurity</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -82,13 +82,14 @@
         </div>
     </div>
 
-
-
+    <!--Cisco Callout-->
+    <a name="cisco"></a>
     <div class="container-fluid cisco-container">
         <div class="row">
             <div class="col-12">
                 <section class="jumbotron jumbotron-fluid text-center cisco-jumbotron">
                     <div class="d-none d-sm-block">
+                        
                         <img src="images/cisco_logo.jpg" class="mr-3 my-3 rounded img-thumbnail mx-auto fill" height=100 width=250>
                     </div>
                     <h2 class="display-4">Cisco Certifications</h2>
@@ -107,8 +108,9 @@
             </div>
         </div>
     </div>
-
-
+    
+    <!--Nokia Callout-->
+    <a name="nokia"></a>
     <div class="container-fluid nokia-container">
         <div class="row">
             <div class="col-12">
@@ -131,8 +133,30 @@
             </div>
         </div>
     </div>
-
-
+    
+    <!--Cybersecurity Callout-->
+    <a name="cybersecurity"></a>
+    <div class="container-fluid cyber-container">
+        <div class="row">
+            <div class="col-12">
+                <section class="jumbotron jumbotron-fluid text-center cyber-jumbotron">
+                    <div class="d-none d-sm-block">
+                        <img src="images/pexels-photo-207580.jpeg" class="mr-3 my-3 rounded img-thumbnail mx-auto fill" height=100 width=250>
+                    </div>
+                    <h2 class="display-4">Cybersecurity Training</h2>
+                    <hr class="my-4">
+                    <p class="lead">Explore our catalog to learn about available cybersecurity programmes</p>
+                    <p class="d-none d-lg-block">Cyber security and digital security courses provide a thorough overview of the challenges facing organisations and individuals in securing their information online. Cyber Security courses teach the fundamentals of securing both clean and corrupted systems, protecting personal data, securing simple computer networks, and safe Internet usage. Courses cover key terms and concepts in cyber law, intellectual property and cyber crimes, trademarks, domain theft, the principles of web security and best practices in relation to cyber and digital security. </p>
+                    <p class="d-block d-lg-none">Our cybersecurity training portfolio can help you and your team build fundamental to advanced cybersecurity techniques</p>
+                    <div class=" cisco-button">
+                        <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#sec-fundamentals">Security Fundamentals</button>
+                        <button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#man-def">Managing and Defending against current Threats</button>
+                        <button type="button" class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#cism">Certified Information Security Manager (CISM)</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
 
     <!-- Get in Touch Modal (overlay) -->
     <div class="modal" tabindex="-1" role="dialog" id="inTouchModal">
@@ -542,7 +566,131 @@
         </div>
     </div>
 
+    <!-- Security Fundamentals (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="sec-fundamentals">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Security Fundamentals</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                            </div>
+                            <div class="col-9">
+                                <p>This three-day MTA Training course helps you prepare for Microsoft Technology Associate Exam 98-367, and build an understanding of the following topics: Security Layers, Operating System Security, Network Security, Security Software.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 01/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-success" role="progressbar" aria-valuenow="80" aria-valuamin="0" aria-valuamax="100" style="width:80%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">80% Booked</span>
+                            <h4 class="progress-label">80% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Managing and Defending against current Threats (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="man-def">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Managing and Defending against current Threats</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                            </div>
+                            <div class="col-9">
+                                <p>This is a deep dive course on security operations: vulnerability management, anomalies detection, discovery of industry attacks and threats, understanding how compromised system or solution looks like, defining the indicators of the attack, incident handling.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 01/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-warning" role="progressbar" aria-valuenow="50" aria-valuamin="0" aria-valuamax="100" style="width:50%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">50% Booked</span>
+                            <h4 class="progress-label">50% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CISM (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="cism">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Certified Information Security Manager (CISM)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                            </div>
+                            <div class="col-9">
+                                <p>This is a uniquely management-focused look at information security management. The following are the main topics covered throughout the course: Information Security Governance, Risk Management, Information Security Program, Information Security Program Implementation, Information Security Program Management, Incident Management and Response
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 19/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-danger" role="progressbar" aria-valuenow="80" aria-valuamin="0" aria-valuamax="100" style="width:80%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">80% Booked</span>
+                            <h4 class="progress-label">80% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Footer of the Page-->
     <footer class="container-fluid footer-container">
@@ -616,6 +764,7 @@
                 </ul>
             </div>
         </div>
+        
     </footer>
 
     <!-- Adding Javascript to site last, so as not to delay the page loading -->
