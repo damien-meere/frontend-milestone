@@ -288,7 +288,8 @@ body {
 .nokia-container,
 .cyber-container,
 .prof-container,
-.manage-container {
+.manage-container,
+.org-container {
     /*VH = Viewport Height*/
     height: 100vh;
     width: 100%;
@@ -311,7 +312,7 @@ body {
 .prof-container {
     padding-right: 0px;
     padding-left: 0px;
-    background: url(images/prof_light_v2.jpeg) no-repeat center center fixed;
+    background: url(../images/prof_light_v2.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -322,7 +323,8 @@ body {
     background-color: #3E4C4F;
 }
 
-.nokia-container {
+.nokia-container,
+.org-container {
     background-color: #5B635A;
 }
 
@@ -353,7 +355,8 @@ body {
 .cisco-jumbotron,
 .nokia-jumbotron,
 .cyber-jumbotron,
-.manage-jumbotron {
+.manage-jumbotron,
+.org-jumbotron {
     /*Adding a full width backgroud image*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -384,6 +387,10 @@ body {
     background: url(../images/manage-light.jpg) no-repeat center center fixed;
 }
 
+.org-jumbotron {
+    /*Adding a full width backgroud image*/
+    background: url(../images/org-change_light.jpg) no-repeat center center fixed;
+}
 
 .details {
     font-size: 20px;
