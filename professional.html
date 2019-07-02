@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <!-- The Viewport Tag is required to scale the content for mobiel devices -->
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-        <!--Navbar-->
+    <!--Navbar-->
     <div class="container-fluid nav-container">
         <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
             <a href="/" class="navbar-brand">Eolas Training</a>
@@ -42,7 +42,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="professional.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Professional Development</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Management & Leadership</a>
+                            <a class="dropdown-item" href="professional.html#manage">Management & Leadership</a>
                             <a class="dropdown-item" href="#">Organisational Change</a>
                         </div>
                     </li>
@@ -60,17 +60,218 @@
             </div>
         </nav>
     </div>
+
+
+    <!--Main Professional Callout-->
+    <div class="container-fluid prof-container mt-3">
+        <div class="row" style="margin:0;">
+            <div class="col-12" style="padding-right: 0px;padding-left: 0px;">
+                <section class="callout jumbotron prof-jumbo text-center">
+                    <h1 class="jumbotron-header d-none d-lg-block">Build your Advanced Technical Skills with one of our Accredited Training Programmes</h1>
+                    <h1 class="jumbotron-header d-block d-md-none">Professional Management Training</h1>
+                    <!-- hr = Horizontal rule -->
+                    <hr class="block-divider">
+                    <p class="prof-lead d-none d-lg-block">Our professional development courses designed so that you can take a number of powerful relevant industry accredited tools & methodologies and deploy them immediately within your organisation, through practical, hands-on simulations and exercises. We can support you on your Lean & Six Sigma Journey, and much more.</p>
+                    <p class="callout-lead-small d-block d-md-none">Providing you with the knowledge and understanding to apply tools & methodologies within you workplace.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!--Management Callout-->
+    <a name="manage"></a>
+    <div class="container-fluid manage-container">
+        <div class="row">
+            <div class="col-12">
+                <section class="jumbotron jumbotron-fluid text-center manage-jumbotron">
+                    <div class="d-none d-sm-block">
+                        <img src="images/pexels-photo-990817.jpeg" class="mr-3 my-3 rounded img-thumbnail mx-auto fill" height=100 width=250>
+                    </div>
+                    <h2 class="display-4">Management Certifications</h2>
+                    <hr class="my-4">
+                    <p class="lead">Giving your people the tools to implement effective organisational change within your business</p>
+                    <p class="d-none d-lg-block details">Management and Leadership skills are essential to the modern workplace. Your people need to have the skills and competancies to necessary to examine your business, and strategically alsign the business with the needs of your industry. Our programmes can give your people the tools to deliver this.</p>
+                    <p class="d-block d-lg-none">Investing in your people can help drive your business to new heights. Browse our Management training courses to learn more.</p>
+                    <div class=" cisco-button text-center">
+                        <button type="button" class="btn btn-primary btn-lg btn-block btn--course" data-toggle="modal" data-target="#changeModal">Change Management</button>
+                        <button type="button" class="btn btn-secondary btn-lg btn-block btn--course" data-toggle="modal" data-target="#perfModal">Performance Management</button>
+                        <button type="button" class="btn btn-success btn-lg btn-block btn--course" data-toggle="modal" data-target="#conflictModal">Managing Conflict</button>
+                        <button type="button" class="btn btn-info btn-lg btn-block btn--course" data-toggle="modal" data-target="#princeModal">Prince 2</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Change Management (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="changeModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Change Management</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                            </div>
+                            <div class="col-9">
+                                <p>This course is designed to provide a robust foundation of knowledge for anyone involved in organisational change initiatives. This course delves into the application of appropriate process frameworks, organization paradigmswith which to sustam change processes, preparing people for change etc.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 01/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-success" role="progressbar" aria-valuenow="50" aria-valuamin="0" aria-valuamax="100" style="width:50%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">50% Booked</span>
+                            <h4 class="progress-label">50% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <!-- Performance Management (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="perfModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Performance Management</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                            </div>
+                            <div class="col-9">
+                                <p>A critical aspect of any manager or supervisor’s role is to manage performance within their team. Without the appropriate skills, this can be a challenge for many managers. In this coures, attendees, will learn about effective manageement, planning and preparation for perfirmance discussions, managing conflict and how to apply this tolls within the workplace.</p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 12/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-warning" role="progressbar" aria-valuenow="70" aria-valuamin="0" aria-valuamax="100" style="width:70%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">70% Booked</span>
+                            <h4 class="progress-label">70% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     
- 
- 
- 
- 
-
-
-
-
-<!--Footer of the Page-->
+    <!-- Conflict Management (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="conflictModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Conflict Management</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                            </div>
+                            <div class="col-9">
+                                <p>Managing and Resolving conflict are essential skills for anyone in a position of management. Within this programme, candidates will learn about understanding how and why conflict happens, how to manage emotions, effectively negotiate conflicts and ultimately how to seek a positive resolution.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 01/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-info" role="progressbar" aria-valuenow="50" aria-valuamin="0" aria-valuamax="100" style="width:25%; height:25px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">25% Booked</span>
+                            <h4 class="progress-label">25% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Prince 2 (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="princeModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Prince 2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                                <a target="_blank" href="https://www.axelos.com/best-practice-solutions/prince2"><img src="images/PRINCE2_Training_Organization.jpg" class="mr-3 my-3 rounded img-thumbnail mx-auto fill"></a>
+                            </div>
+                            <div class="col-9">
+                                <p>PRINCE2 (PRojects IN Controlled Environments) is a structured project management method and practitioner certification programme. PRINCE2 emphasises dividing projects into manageable and controllable stages.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 12/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-success" role="progressbar" aria-valuenow="60" aria-valuamin="0" aria-valuamax="100" style="width:60%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">60% Booked</span>
+                            <h4 class="progress-label">60% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Footer of the Page-->
     <footer class="container-fluid footer-container">
         <div id="footer-details" class="row">
             <div class="col-sm-4">

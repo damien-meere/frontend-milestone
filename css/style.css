@@ -29,7 +29,8 @@ body {
 /*----------------------------------------------------------Jumbotron alterations*/
 
 .main-jumbo,
-.tech-jumbo {
+.tech-jumbo,
+.prof-jumbo {
     background-color: transparent;
     color: white;
 }
@@ -99,7 +100,7 @@ body {
 }
 
 .welcome-lead {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .domain {
@@ -143,6 +144,12 @@ body {
 .btn--red:active:focus {
     background-color: #7D7D7E;
     border-color: #7D7D7E;
+}
+
+.btn--course {
+    font-weight: bold;
+    border-radius: 22px;
+    /*width: 80vw;*/
 }
 
 /*----------------------------------------------------------Block Dividers*/
@@ -266,7 +273,22 @@ body {
 
 /*----------------------------------------------------------Technical Page*/
 
-.tech-container {
+.tech-lead {
+    color: #d7dce2;
+    font-size: 30px;
+}
+
+.prof-lead {
+    color: #363B40;
+    font-size: 30px;
+}
+
+.tech-container,
+.cisco-container,
+.nokia-container,
+.cyber-container,
+.prof-container,
+.manage-container {
     /*VH = Viewport Height*/
     height: 100vh;
     width: 100%;
@@ -275,7 +297,9 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+}
 
+.tech-container {
     /*Adding a full width backgroud image*/
     background: url(../images/Networking_dark.jpg) no-repeat top left fixed;
     -webkit-background-size: cover;
@@ -284,43 +308,38 @@ body {
     background-size: cover;
 }
 
-.tech-lead {
-    color: #d7dce2;
-    font-size: 25px;
-}
-
-.cisco-container,
-.nokia-container,
-.cyber-container {
-    /*VH = Viewport Height*/
-    height: 100vh;
-    width: 100%;
-    /*Align the container to centre of the viewport*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    
+.prof-container {
+    padding-right: 0px;
+    padding-left: 0px;
+    /*Adding a full width backgroud image*/
+    background: url(../images/prof_light_v2.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .cisco-container {
-    background-color:#3E4C4F;
+    background-color: #3E4C4F;
 }
 
-.nokia-container{
-    background-color:#5B635A;
+.nokia-container {
+    background-color: #5B635A;
 }
 
-.cyber-container{
-    background-color:#A5B8B4;
+.cyber-container,
+.manage-container {
+    background-color: #A5B8B4;
 }
 
 .cisco-container img {
     padding: 25px;
 }
 
-.cisco-button {
-    padding: 10px;
+.cisco-button,
+.nokia-button,
+.cyber-button {
+    padding: 10px 20px 10px 20px;
 }
 
 .hide {
@@ -333,13 +352,16 @@ body {
 }
 
 .cisco-jumbotron,
-.nokia-jumbotron, 
-.cyber-jumbotron{
+.nokia-jumbotron,
+.cyber-jumbotron,
+.manage-jumbotron {
     /*Adding a full width backgroud image*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .cisco-jumbotron {
@@ -357,7 +379,17 @@ body {
     background: url(../images/cybersec_light.jpg) no-repeat center center fixed;
 }
 
-.modal {
-    background-color:#E1E3DF;
+.manage-jumbotron {
+    margin-top: 20px;
+    /*Adding a full width backgroud image*/
+    background: url(../images/manage-light.jpg) no-repeat center center fixed;
 }
 
+
+.details {
+    font-size: 20px;
+}
+
+.modal {
+    background-color: #E1E3DF;
+}
