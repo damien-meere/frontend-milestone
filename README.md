@@ -4,7 +4,7 @@ User-Centric Frontend Development Milestone Project - Code Institute
 This project website will highlight my capability to employ the various tools illustrated through out the User-centric frontend development section of the Code Institute programme. This site will be a mock-up of a training company site. This will house information from three different strands of training - Technical, Management and Soft-Skills training.
 
 ## Demo
-A live demo can be found here - <!--Include link to deployed Github pages-->
+A live demo can be found [Here](https://damien-meere.github.io/frontend-milestone/index.html)
 
 <!--Need to create a site demo gif to illustrate the front page of the site scrolling-->
 

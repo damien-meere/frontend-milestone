@@ -311,8 +311,7 @@ body {
 .prof-container {
     padding-right: 0px;
     padding-left: 0px;
-    /*Adding a full width backgroud image*/
-    background: url(../images/prof_light_v2.jpeg) no-repeat center center fixed;
+    background: url(images/prof_light_v2.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
