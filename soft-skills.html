@@ -18,7 +18,7 @@
     <!--Navbar-->
     <div class="container-fluid nav-container">
         <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
-            <a href="/" class="navbar-brand">Eolas Training</a>
+            <a href="index.html" class="navbar-brand">Eolas Training</a>
 
             <!-- creating a collapsible navbarNavDropdown div for mobile devices, so as not to eat up realestate on the screen -->
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,15 +63,352 @@
 
 
 
+    <!--Main Soft-skills Callout-->
+    <div class="container-fluid soft-container">
+        <div class="row" style="margin-left: 0px;margin-right: 0px;">
+            <!-- Callout will be the same (full width) on all screen sizes -->
+            <div class="col-12">
+                <section class="callout jumbotron soft-jumbo text-center">
+                    <!--Header altered depending on screen size, less text on mobile device-->
+                    <h1 class="jumbotron-header d-none d-lg-block">Personal/Soft-Skills development is a crucial area for any business as in every job we engage with others, either inside or outside of our organization.</h1>
+                    <h1 class="jumbotron-header d-block d-md-none">Soft-Skills Training</h1>
+                    <!-- hr = Horizontal rule -->
+                    <hr class="block-divider">
+                    <p class="tech-lead d-none d-lg-block">Soft skills are interpersonal skills hardwired to an individual’s personality, and they characterize how you interact with other people in the workplace. Soft skills include people skills, social skills, character traits, interpersonal
+                        skills, and transferable skills. Our catalogue of training programmes can aid you people in enhancing these skills, and delivering more for your organisation and your customers</p>
+                    <p class="callout-lead-small d-block d-md-none">Our programmes deal with people skills, social skills, character traits, interpersonal skills, and transferable skills</p>
+                </section>
+            </div>
+        </div>
+    </div>
 
+    <!--soft-skills Callout-->
+    <a name="manage"></a>
+    <div class="container-fluid personal-container">
+        <div class="row">
+            <div class="col-12">
+                <section class="jumbotron jumbotron-fluid text-center personal-jumbotron">
+                    <div class="d-none d-sm-block">
+                        <img src="images/pexels-photo-990817.jpeg" class="mr-3 my-3 rounded img-thumbnail mx-auto fill" height=100 width=250>
+                    </div>
+                    <h2 class="display-4">Soft-Skills Training Options</h2>
+                    <hr class="my-4">
+                    <p class="lead">Giving your people the tools to maximise their potential</p>
+                    <p class="d-none d-lg-block details"><a href="https://www.forbes.com/sites/nazbeheshti/2018/09/24/are-hard-skills-or-soft-skills-more-important-to-be-an-effective-leader/">Research</a> has shown that soft skills account for 90% of what makes people progress up the success
+                        ladder. Rather than what your employees know in a professional capacity, soft skills focus on who people are, as opposed to what they are. Soft skills serve to represent your approach to life and work. Browse our personal/soft-skills
+                        training courses to learn more.</p>
+                    <p class="d-block d-lg-none"><a href="https://www.forbes.com/sites/nazbeheshti/2018/09/24/are-hard-skills-or-soft-skills-more-important-to-be-an-effective-leader/">Research</a> has shown that soft skills account for 90% of what makes people progress up the success
+                        ladder. Browse our personal/soft-skills training courses to learn more.</p>
+                    <div class=" cisco-button text-center">
+                        <button type="button" class="btn btn-primary btn-lg btn-block btn--course" data-toggle="modal" data-target="#commsModal">Effective Communication Skills</button>
+                        <button type="button" class="btn btn-secondary btn-lg btn-block btn--course" data-toggle="modal" data-target="#resilianceModal">Building Resilience</button>
+                        <button type="button" class="btn btn-success btn-lg btn-block btn--course" data-toggle="modal" data-target="#problemModal">Problem Solving & Decision Making</button>
+                        <button type="button" class="btn btn-info btn-lg btn-block btn--course" data-toggle="modal" data-target="#presModal">Presentation Skills</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
 
+    <!-- Effective Communication Skills (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="commsModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Effective Communication Skills</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                            </div>
+                            <div class="col-9">
+                                <p>A key goal of this workshop is to help participants understand the impact their communication style has on other people. Being aware of how you communicate and learning to appreciate and practice effective communication
+                                    skills will give you more positive results.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 01/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-success" role="progressbar" aria-valuenow="20" aria-valuamin="0" aria-valuamax="100" style="width:20%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">20% Booked</span>
+                            <h4 class="progress-label">20% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Building Resilience (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="resilianceModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Building Resilience</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                            </div>
+                            <div class="col-9">
+                                <p>Resilience (or resiliency) is our ability to adapt and bounce back when things don't go as planned. Within this programme candidates will examine resilience: what it is, why we need it, and how to develop it; so that we
+                                    have the strength and fortitude to overcome adversity, and to keep on moving forward towards our goals.</p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 12/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-warning" role="progressbar" aria-valuenow="40" aria-valuamin="0" aria-valuamax="100" style="width:40%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">40% Booked</span>
+                            <h4 class="progress-label">40% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Problem Solving & Decision Making (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="problemModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Problem Solving & Decision Making</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                            </div>
+                            <div class="col-9">
+                                <p>Why is it that some people find it easy to solve tough problems with simple solutions while others find this feat nearly impossible? The power to find these creative solutions lies in our ability to search for and find
+                                    facts that relate to the situation, and put them together in ways that work. This programme will give candidates the tools to do just that.</p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 26/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-info" role="progressbar" aria-valuenow="70" aria-valuamin="0" aria-valuamax="100" style="width:70%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">70% Booked</span>
+                            <h4 class="progress-label">70% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-
-
-
+    <!-- Presentation Skills (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="presModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Presentation Skills</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                            </div>
+                            <div class="col-9">
+                                <p>The aim of this course is to develop the key skills, which will help overcome the fear and to develop the confidence and capacity to deliver compelling and influential presentations. This practical course will look at the
+                                    steps involved in creating compelling presentations, as well as providing an opportunity to practice in a safe environment.</p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 26/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-info" role="progressbar" aria-valuenow="70" aria-valuamin="0" aria-valuamax="100" style="width:70%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">70% Booked</span>
+                            <h4 class="progress-label">70% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- CCNA (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="ccnaModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">CCNA - Cisco Certified Network Associate</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                                <a target="_blank" href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-routing-switching.html"><img src="images/ccna_logo.jpg" class="e mr-3 my-3 rounded-circle img-thumbnail mx-auto"></a>
+                            </div>
+                            <div class="col-9">
+                                <p>Develops candidate's knowledge and skills related to network fundamentals, LAN switching technologies, IPv4 and IPv6 routing technologies, WAN technologies, infrastructure services, infrastructure security, and infrastructure
+                                    management.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 01/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-success" role="progressbar" aria-valuenow="40" aria-valuamin="0" aria-valuamax="100" style="width:40%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">40% Booked</span>
+                            <h4 class="progress-label">40% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Conflict Management (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="conflictModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Conflict Management</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                            </div>
+                            <div class="col-9">
+                                <p>Managing and Resolving conflict are essential skills for anyone in a position of management. Within this programme, candidates will learn about understanding how and why conflict happens, how to manage emotions, effectively
+                                    negotiate conflicts and ultimately how to seek a positive resolution.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 01/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-info" role="progressbar" aria-valuenow="50" aria-valuamin="0" aria-valuamax="100" style="width:25%; height:25px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">25% Booked</span>
+                            <h4 class="progress-label">25% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Six Sigma Green Belt (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="greenModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Six Sigma Green Belt</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                                <img src="images/green_belt.jpeg" class="mr-3 my-3 rounded img-thumbnail mx-auto fill">
+                            </div>
+                            <div class="col-9">
+                                <p>Six Sigma Green Belt introduces candidates methods for developing and improving products, services and processes. They learn to apply problem-solving frameworks such as DMAIC (Define, Measure, Analyze, Improve and Control)
+                                    , so as to understand the problems in a business process, set useful metrics for measuring changes, examine relevant data, implement solutions and then sustain the results over time.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 05/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-success" role="progressbar" aria-valuenow="40" aria-valuamin="0" aria-valuamax="100" style="width:40%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">40% Booked</span>
+                            <h4 class="progress-label">40% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Footer of the Page-->
     <footer class="container-fluid footer-container">
@@ -96,8 +433,9 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Popular Courses</h5>
                 <p class="inline-block">
-
-                    <!--Include Links to main programmes-->
+                    <button type="button" class="btn btn-primary btn-lg btn-block btn--course" data-toggle="modal" data-target="#ccnaModal">Cisco Certified Network Associate</button>
+                    <button type="button" class="btn btn-warning btn-lg btn-block btn--course" data-toggle="modal" data-target="#conflictModal">Managing Conflict</button>
+                    <button type="button" class="btn btn-success btn-lg btn-block btn--course" data-toggle="modal" data-target="#greenModal">Six Sigma - Green Belt</button>
 
                 </p>
             </div>

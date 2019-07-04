@@ -30,7 +30,9 @@ body {
 
 .main-jumbo,
 .tech-jumbo,
-.prof-jumbo {
+.prof-jumbo,
+.soft-jumbo,
+.contact-jumbo{
     background-color: transparent;
     color: white;
 }
@@ -77,19 +79,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-
-/*Correction, i've altered the images in photoshop in advance*/
-
-/*background image is too bright apply an overlay to tone it down*/
-
-/*.image-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .2);
-}*/
 
 .welcome-container {
     background-color: #d9d9d9;
@@ -185,6 +174,19 @@ body {
     text-transform: uppercase;
 }
 
+.contact-lead {
+    color: #404040;
+    font-size: 35px;
+}
+
+.contact-lead-small {
+    color: #404040;
+    font-size: 30px;
+}
+
+.contact-details{
+    font-size: 25px;
+}
 
 /*----------------------------------------------------------Footer alterations*/
 
@@ -294,7 +296,9 @@ body {
 .cyber-container,
 .prof-container,
 .manage-container,
-.org-container {
+.org-container,
+.soft-container,
+.contact-container {
     /*VH = Viewport Height*/
     height: 100vh;
     width: 100%;
@@ -324,12 +328,34 @@ body {
     background-size: cover;
 }
 
+.soft-container {
+    padding-right: 0px;
+    padding-left: 0px;
+    background: url(../images/soft-skills_light.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.contact-container {
+    padding-right: 0px;
+    padding-left: 0px;
+    background: url(../images/contact_light.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 .cisco-container {
     background-color: #3E4C4F;
 }
 
 .nokia-container,
-.org-container {
+.org-container,
+.personal-container {
     background-color: #5B635A;
 }
 
@@ -361,7 +387,8 @@ body {
 .nokia-jumbotron,
 .cyber-jumbotron,
 .manage-jumbotron,
-.org-jumbotron {
+.org-jumbotron,
+.personal-jumbotron {
     /*Adding a full width backgroud image*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -395,6 +422,12 @@ body {
 .org-jumbotron {
     /*Adding a full width backgroud image*/
     background: url(../images/org-change_light.jpg) no-repeat center center fixed;
+}
+
+.personal-jumbotron {
+    margin-top: 20px;
+    /*Adding a full width backgroud image*/
+    background: url(../images/personal-jumbo.jpeg) no-repeat bottom center fixed;
 }
 
 .details {

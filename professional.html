@@ -18,7 +18,7 @@
     <!--Navbar-->
     <div class="container-fluid nav-container">
         <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
-            <a href="/" class="navbar-brand">Eolas Training</a>
+            <a href="index.html" class="navbar-brand">Eolas Training</a>
 
             <!-- creating a collapsible navbarNavDropdown div for mobile devices, so as not to eat up realestate on the screen -->
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -431,6 +431,50 @@
             </div>
         </div>
     </div>
+    
+    <!-- CCNA (overlay) -->
+    <div class="modal" tabindex="-1" role="dialog" id="ccnaModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">CCNA - Cisco Certified Network Associate</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-3">
+                                <h5>Course Details:</h5>
+                                <a target="_blank" href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-routing-switching.html"><img src="images/ccna_logo.jpg" class="e mr-3 my-3 rounded-circle img-thumbnail mx-auto"></a>
+                            </div>
+                            <div class="col-9">
+                                <p>Develops candidate's knowledge and skills related to network fundamentals, LAN switching technologies, IPv4 and IPv6 routing technologies, WAN technologies, infrastructure services, infrastructure security, and infrastructure
+                                    management.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <h5>Next Course: 01/08/19</h5>
+                        <h5>Course Bookings:</h5>
+                        <div class="progress-bar progress-bar-striped .progress-bar-animated bg-success" role="progressbar" aria-valuenow="40" aria-valuamin="0" aria-valuamax="100" style="width:40%; height:35px;">
+                            <!--Screen Readers Only-->
+                            <span class="sr-only">40% Booked</span>
+                            <h4 class="progress-label">40% Booked</h4>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <button type="submit" class="btn btn-success">Request Space</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!--Footer of the Page-->
@@ -456,8 +500,9 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Popular Courses</h5>
                 <p class="inline-block">
-
-                    <!--Include Links to main programmes-->
+                    <button type="button" class="btn btn-primary btn-lg btn-block btn--course" data-toggle="modal" data-target="#ccnaModal">Cisco Certified Network Associate</button>
+                    <button type="button" class="btn btn-success btn-lg btn-block btn--course" data-toggle="modal" data-target="#conflictModal">Managing Conflict</button>
+                    <button type="button" class="btn btn-warning btn-lg btn-block btn--course" data-toggle="modal" data-target="#greenModal">Six Sigma - Green Belt</button>
 
                 </p>
             </div>
