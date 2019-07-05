@@ -32,7 +32,7 @@ body {
 .tech-jumbo,
 .prof-jumbo,
 .soft-jumbo,
-.contact-jumbo{
+.contact-jumbo {
     background-color: transparent;
     color: white;
 }
@@ -184,7 +184,7 @@ body {
     font-size: 30px;
 }
 
-.contact-details{
+.contact-details {
     font-size: 25px;
 }
 
@@ -434,6 +434,20 @@ body {
     font-size: 20px;
 }
 
-.modal {
-    background-color: #E1E3DF;
+
+
+/*----------------------------------------------------------Modal Edits*/
+
+/*Modal background*/
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*navbar has a z-index of 1030, so in order to make the modal backdrop overlay on this, we need to set the z-index to less than this*/
+    z-index: 1020;
+    width: 100vw;
+    height: 100vh;
+    background-color: #A5B8B4;
 }
+

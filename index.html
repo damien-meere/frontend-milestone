@@ -56,7 +56,7 @@
             <!--Marketing text + Get in Touch button visible on medium screens and above -->
             <div class="d-none d-md-block">
                 <p class="navbar-text my-auto mr-2"><i>Delivering Exceptional Training</i></p>
-                <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#inTouchModal">Get In Touch</button>
+                <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#inTouchModal" >Get In Touch</button>
             </div>
         </nav>
     </div>
@@ -200,7 +200,7 @@
 
 
     <!-- Get in Touch Modal (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="inTouchModal">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="inTouchModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -238,11 +238,11 @@
     </div>
     
     <!-- CCNA (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="ccnaModal">
+    <div class="modal" tabindex="-1" role="dialog" id="ccnaModal" aria-labelledby="ccnaModalLabel" aria-hidden="true" style="display: none; padding-right: 17px;">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">CCNA - Cisco Certified Network Associate</h5>
+                    <h5 class="modal-title" id="ccnaModalLabel">CCNA - Cisco Certified Network Associate</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                     </button>
