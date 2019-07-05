@@ -185,8 +185,11 @@ body {
 }
 
 .contact-details {
+    padding-top: 30px;
     font-size: 25px;
 }
+
+
 
 /*----------------------------------------------------------Footer alterations*/
 
@@ -355,7 +358,8 @@ body {
 
 .nokia-container,
 .org-container,
-.personal-container {
+.personal-container,
+.contactForm-container{
     background-color: #5B635A;
 }
 
@@ -388,7 +392,8 @@ body {
 .cyber-jumbotron,
 .manage-jumbotron,
 .org-jumbotron,
-.personal-jumbotron {
+.personal-jumbotron,
+.contact-jumbotron{
     /*Adding a full width backgroud image*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -430,6 +435,12 @@ body {
     background: url(../images/personal-jumbo.jpeg) no-repeat bottom center fixed;
 }
 
+.contact-jumbotron {
+    margin-top: 20px;
+    /*Adding a full width backgroud image*/
+    background: url(../images/contact_us_form_bg.jpg) no-repeat bottom center fixed;
+}
+
 .details {
     font-size: 20px;
 }
@@ -450,4 +461,3 @@ body {
     height: 100vh;
     background-color: #A5B8B4;
 }
-
