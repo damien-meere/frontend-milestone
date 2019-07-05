@@ -111,7 +111,7 @@
     </div>
 
     <!-- Effective Communication Skills (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="commsModal">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="commsModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -154,7 +154,7 @@
     </div>
 
     <!-- Building Resilience (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="resilianceModal">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="resilianceModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -196,7 +196,7 @@
     </div>
 
     <!-- Problem Solving & Decision Making (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="problemModal">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="problemModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -238,7 +238,7 @@
     </div>
 
     <!-- Presentation Skills (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="presModal">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="presModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -280,7 +280,7 @@
     </div>
     
     <!-- CCNA (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="ccnaModal">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="ccnaModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -324,7 +324,7 @@
     </div>
     
     <!-- Conflict Management (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="conflictModal">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="conflictModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -367,7 +367,7 @@
     </div>
     
     <!-- Six Sigma Green Belt (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="greenModal">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="greenModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -410,8 +410,28 @@
         </div>
     </div>
     
+    <!-- Submission Modal (overlay) -->
+    <div class="modal fade show" tabindex="-2" role="dialog" id="submissionModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Thank you for your message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="text-align:center;">One of our training coordinators will be in contact within 24 hours.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- Get in Touch Modal (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="inTouchModal">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="inTouchModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -441,7 +461,9 @@
                         <div class="form-group">
                             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        <!--<button type="submit" class="btn btn-success">Submit</button>-->
+                        <!--On Submission, 'Get in Touch' Modal closes, and a feedback modal opens-->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#submissionModal" data-dismiss="modal">Submit</button>
                     </form>
                 </div>
             </div>

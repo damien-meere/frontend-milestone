@@ -86,6 +86,8 @@ body {
 
 .welcome-header {
     margin: 0;
+    height: 25vh;
+
 }
 
 .welcome-lead {
@@ -152,6 +154,7 @@ body {
     height: 6px;
     border: 0;
     background-color: white;
+    width: 80%;
 }
 
 .block-divider--short {
@@ -359,8 +362,12 @@ body {
 .nokia-container,
 .org-container,
 .personal-container,
-.contactForm-container{
+.contactForm-container {
     background-color: #5B635A;
+}
+
+.contactForm-container {
+    padding: 10px 30px 10px 30px;
 }
 
 .cyber-container,
@@ -393,7 +400,7 @@ body {
 .manage-jumbotron,
 .org-jumbotron,
 .personal-jumbotron,
-.contact-jumbotron{
+.contact-jumbotron {
     /*Adding a full width backgroud image*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -437,8 +444,10 @@ body {
 
 .contact-jumbotron {
     margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     /*Adding a full width backgroud image*/
-    background: url(../images/contact_us_form_bg.jpg) no-repeat bottom center fixed;
+    background: url(../images/contact_us_form_bg.jpg) no-repeat center center fixed;
 }
 
 .details {
@@ -460,4 +469,27 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #A5B8B4;
+}
+
+/*----------------------------------------------------------Carosel Edits*/
+
+.carousel {
+    text-align: -webkit-center;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-inner img {
+    width: 40%;
+    margin: auto;
+}
+
+.carousel-item a {
+    padding: 20px;
 }

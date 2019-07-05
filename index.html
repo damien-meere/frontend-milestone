@@ -56,7 +56,7 @@
             <!--Marketing text + Get in Touch button visible on medium screens and above -->
             <div class="d-none d-md-block">
                 <p class="navbar-text my-auto mr-2"><i>Delivering Exceptional Training</i></p>
-                <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#inTouchModal" >Get In Touch</button>
+                <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#inTouchModal">Get In Touch</button>
             </div>
         </nav>
     </div>
@@ -86,18 +86,18 @@
         <section class="welcome">
             <div class="row text-center welcome-header">
                 <div class="col-12 page-header my-5">
-                    <h2 class="text-uppercase">Welcome to Eolas</h2>
+                    <h1 class="text-uppercase">Welcome to Eolas</h1>
                     <hr class="block-divider">
                     <p class="d-none d-lg-block welcome-lead">Choose from a multitude of professional courses, delivered by our highly experienced trainers. Our aim is to empower our clients to excel and exceed business goals with the most up-to-date technology training. </p>
                     <p class="welcome-lead d-none d-lg-block welcome-lead"> Where can we help you develop?</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="padding-top:20px;">
                 <!-- on Medium screens the featues elements will cover half the screen with, or full width on smaller screens-->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="domain">
                         <!--d-sm-inline class puts the icon inline with the feature title, chage this to d-sm-block to move to another line-->
-                        <h3><i class="fas fa-cogs d-none d-sm-block"></i> Technical Training</h3>
+                        <h4><i class="fas fa-cogs d-none d-sm-block"></i> Technical Training</h4>
                         <p class="d-none d-lg-block">We offer a huge variety of Network training, across a number of vendors, in particular Cisco, Nokia and Juniper. We offer ongooing public training options on the certification tracks for all major vendors. We can also facilitate
                             more specialist training on request. </p>
                         <p class="d-block d-lg-none">Click on the button below to find out about our Networking training options</p>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="domain">
-                        <h3><i class="fas fa-user-tie d-none d-sm-block"></i> Professional Development</h3>
+                        <h4><i class="fas fa-user-tie d-none d-sm-block"></i> Professional Development</h4>
                         <p class="d-none d-lg-block">Our professional development courses designed so that you can take these powerful tools & methodologies and deploy them immediately within your organisation, through practical, hands-on simulations and exercises. We can support
                             you on your Lean & Six Sigma Journey</p>
                         <p class="d-block d-lg-none">Click on the button below to find out more training to support your Lean, Six Sigma or Lean Six Sigma journeys.</p>
@@ -117,7 +117,7 @@
                 <!-- on large screens this element will appear (d-lg-block) -->
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="domain">
-                        <h3><i class="fas fa-users d-none d-sm-block"></i> Personal/Soft-Skills</h3>
+                        <h4><i class="fas fa-users d-none d-sm-block"></i> Personal/Soft-Skills</h4>
                         <p class="d-none d-lg-block">We know how important quality is to your soft-skills investment. Our community of highly experienced trainers, coming from from a wide variety of industries, will develop and deliver the exact training your organisation needs,
                             to the highest standards.</p>
                         <p class="d-block d-lg-none">We can develop and deliver the exact training your organisation needs, to the highest standards. Click below to find out more.</p>
@@ -133,12 +133,61 @@
         <section class="certification">
             <div class="row">
                 <div class="col-12 page-header my-5">
-                    <h2 class="text-uppercase text-center">Internationally Recognised Certifications</h2>
+                    <h1 class="text-uppercase text-center">Internationally Recognised Certifications</h1>
                     <hr class="block-divider">
                     <p class="lead text-center">Eolas can offer you access to valuable Internationally Recognised Certifications, through our world-renowned certifications partners</p>
                 </div>
             </div>
-            <!--Images change from rectangles to small rounded circles on small screens (i.e. Phones)-->
+
+            <div id="carouselCerts" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a target="_blank" href="http://www.netacad.com"><img src="images/cisco_carousel.jpg" class="d-block w-20" ></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a target="_blank" href="https://networks.nokia.com/src/certifications"><img src="images/nokia_carousel.jpg" class="d-block w-20"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a target="_blank" href="https://www.juniper.net/uk/en/training/certification/"><img src="images/juniper_carousel.jpg" class="d-block w-20"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a target="_blank" href="https://www.axelos.com/best-practice-solutions/prince2"><img src="images/prince_carousel.jpg" class="d-block w-20"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a target="_blank" href="https://www.axelos.com/certifications/itil-certifications"><img src="images/itil_carousel.jpg" class="d-block w-20"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a target="_blank" href="https://www.qqi.ie/"><img src="images/qqi_carousel.jpg" class="d-block w-20"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a target="_blank" href="https://www.isixsigma.com/new-to-six-sigma/what-six-sigma/"><img src="images/six-sigma_carousel.jpg" class="d-block w-20"></a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselCerts" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselCerts" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <br>
+                <ol class="carousel-indicators" data-target="carouselCerts">
+                <li data-target="#carouselCerts" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselCerts" data-slide-to="1"></li>
+                <li data-target="#carouselCerts" data-slide-to="2"></li>
+                <li data-target="#carouselCerts" data-slide-to="3"></li>
+                <li data-target="#carouselCerts" data-slide-to="4"></li>
+                <li data-target="#carouselCerts" data-slide-to="5"></li>
+                <li data-target="#carouselCerts" data-slide-to="6"></li>
+            </ol>
+            </div>
+
+
+
+
+
+            <!--Images change from rectangles to small rounded circles on small screens (i.e. Phones)
             <div class="row">
                 <div class="media">
                     <div class="d-none d-sm-block text-center">
@@ -164,7 +213,7 @@
                                     <div class="partner3">
                                         <div class="overlay-effect"></div>
                                         <div>
-                                            <<a target="_blank" href="https://www.juniper.net/uk/en/training/certification/"><img src="images/junipernetworkslogo-580x358.jpg" class="mr-3 my-3 rounded img-thumbnail mx-auto fill" height=100 width=250></a>
+                                            <a target="_blank" href="https://www.juniper.net/uk/en/training/certification/"><img src="images/junipernetworkslogo-580x358.jpg" class="mr-3 my-3 rounded img-thumbnail mx-auto fill" height=100 width=250></a>
                                         </div>
                                     </div>
                                 </div>
@@ -190,7 +239,7 @@
                     <a target="_blank" href="https://www.isixsigma.com/new-to-six-sigma/what-six-sigma/"><img src="images/six_sigma_logo.jpg" class="mr-3 my-3 rounded-circle img-thumbnail mx-auto" height=100 width=100></a>
 
                 </div>
-            </div>
+            </div>-->
 
     </div>
     </section>
@@ -236,9 +285,9 @@
             </div>
         </div>
     </div>
-    
+
     <!-- CCNA (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="ccnaModal" aria-labelledby="ccnaModalLabel" aria-hidden="true" style="display: none; padding-right: 17px;">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="ccnaModal" aria-labelledby="ccnaModalLabel" aria-hidden="true" style="display: none; padding-right: 17px;">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -280,9 +329,9 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Conflict Management (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="conflictModal">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="conflictModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -323,9 +372,9 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Six Sigma Green Belt (overlay) -->
-    <div class="modal" tabindex="-1" role="dialog" id="greenModal">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="greenModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
