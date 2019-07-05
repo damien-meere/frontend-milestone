@@ -146,7 +146,8 @@
                             <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
                             <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
                         </div>
-                        <button type="submit" class="btn btn-success">Request Space</button>
+                        <!--<button type="submit" class="btn btn-success">Request Space</button>-->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -188,7 +189,8 @@
                             <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
                             <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
                         </div>
-                        <button type="submit" class="btn btn-success">Request Space</button>
+                        <!--<button type="submit" class="btn btn-success">Request Space</button>-->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -230,7 +232,8 @@
                             <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
                             <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
                         </div>
-                        <button type="submit" class="btn btn-success">Request Space</button>
+                        <!--<button type="submit" class="btn btn-success">Request Space</button>-->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -272,13 +275,14 @@
                             <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
                             <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
                         </div>
-                        <button type="submit" class="btn btn-success">Request Space</button>
+                        <!--<button type="submit" class="btn btn-success">Request Space</button>-->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <!-- CCNA (overlay) -->
     <div class="modal fade show" tabindex="-1" role="dialog" id="ccnaModal">
         <div class="modal-dialog" role="document">
@@ -316,13 +320,14 @@
                             <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
                             <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
                         </div>
-                        <button type="submit" class="btn btn-success">Request Space</button>
+                        <!--<button type="submit" class="btn btn-success">Request Space</button>-->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <!-- Conflict Management (overlay) -->
     <div class="modal fade show" tabindex="-1" role="dialog" id="conflictModal">
         <div class="modal-dialog" role="document">
@@ -359,13 +364,14 @@
                             <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
                             <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
                         </div>
-                        <button type="submit" class="btn btn-success">Request Space</button>
+                        <!--<button type="submit" class="btn btn-success">Request Space</button>-->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <!-- Six Sigma Green Belt (overlay) -->
     <div class="modal fade show" tabindex="-1" role="dialog" id="greenModal">
         <div class="modal-dialog" role="document">
@@ -403,13 +409,34 @@
                             <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
                             <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
                         </div>
-                        <button type="submit" class="btn btn-success">Request Space</button>
+                        <!--<button type="submit" class="btn btn-success">Request Space</button>-->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-    
+
+    <!-- Course Request Modal (overlay) -->
+    <div class="modal fade show" tabindex="-2" role="dialog" id="requestResponseModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Thank you for your Request</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="text-align:center;">One of our training coordinators will be in contact within 24 hours to confirm your space on this programme</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Submission Modal (overlay) -->
     <div class="modal fade show" tabindex="-2" role="dialog" id="submissionModal">
         <div class="modal-dialog" role="document">
@@ -429,7 +456,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Get in Touch Modal (overlay) -->
     <div class="modal fade show" tabindex="-1" role="dialog" id="inTouchModal">
         <div class="modal-dialog" role="document">
