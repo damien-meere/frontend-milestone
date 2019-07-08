@@ -35,6 +35,8 @@ to select the course they require.
 
 ### index.html
 
+![Index Page](assets/images/index_page.gif)
+
 ### technical.html
 
 ### professional.html
