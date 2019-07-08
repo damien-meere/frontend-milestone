@@ -16,8 +16,8 @@ On larger screens, more verbose content is rpesented. However, on smaller screen
 
 I want to provide a brief beakdown of the areas of training that this company offer on the home page, 
 
-A link to my social media (i.e. LinkedIn profile, GitHub, twitter etc.) are also provided to illustrate this functionality. I've not built social media profiles for my training company, 
-so I've used my personal accounts to demonstrate this functionality.
+A link to various social media platforms (i.e. LinkedIn profile, GitHub, twitter etc.) are also provided to illustrate this functionality. I've not built social media profiles for my training company, 
+so these links refer directly to each site's homepage.
 
 ## Technologies
 1. HTML
@@ -27,11 +27,18 @@ so I've used my personal accounts to demonstrate this functionality.
 ## Current Features
 This site uses the JSFiddle script to enable the alteration of booking modals, depending on the chosen programme.
 
+I've created a number of response modals to illustrate an automated response to user inputs. This occurs when a user submits a request for a space within a course, or when the use uses the 'Get In Touch' Button
+in the Navbar (visible on larger screens).There is currently no back-end to harness the user data, so this is merely in plasce to demonstrate this functionality.
+
 I've impletemented a basic script to validate inputs to the contact form. This enforces the inclusion of input to the Name field, as well a proper formatting for the email field. 
 This also ensures content within the message section of the page.
 
 ## Future Features 
-In future I would like to link the the booking form illustrating course availability progress bars to a working database in order to give training candidates a live view of available space ont the coure.
+In future, the booking form illustrating course availability progress bars, will be linked to a working database in order to give training candidates an accurate view of available space on the coure. 
+
+At the moment, user inputs are acknowledged through automated reponse modals. In the next iteration of this site, user inputs will be harnessed from the booking forms and contact forms, and actioned within
+the back-end of the site. Rather than a notification that a company representative will be in contact, that input will be validated, and stored within the back-end database, and reflected in the 
+course availability progress bars.
 
 ## Testing
 All links will open in a new tab using 'target="_blank"'.  All links have been manually tested to ensure that they are pointing to the correct destination.

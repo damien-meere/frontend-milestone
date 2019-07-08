@@ -304,7 +304,8 @@ body {
 .manage-container,
 .org-container,
 .soft-container,
-.contact-container {
+.contact-container,
+.vod-container {
     /*VH = Viewport Height*/
     height: 100vh;
     width: 100%;
@@ -355,7 +356,8 @@ body {
 }
 
 
-.cisco-container {
+.cisco-container,
+.vod-container {
     background-color: #3E4C4F;
 }
 
@@ -400,7 +402,8 @@ body {
 .manage-jumbotron,
 .org-jumbotron,
 .personal-jumbotron,
-.contact-jumbotron {
+.contact-jumbotron,
+.video-jumbotron {
     /*Adding a full width backgroud image*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -450,6 +453,12 @@ body {
     background: url(../images/contact_us_form_bg.jpg) no-repeat center center fixed;
 }
 
+.video-jumbotron {
+    margin-top: 20px;
+    /*Adding a full width backgroud image*/
+    background: url(../images/video_jumbo.jpg) no-repeat bottom center fixed;
+}
+
 .details {
     font-size: 20px;
 }
@@ -492,4 +501,33 @@ body {
 
 .carousel-item a {
     padding: 20px;
+}
+
+/*----------------------------------------------------------Video */
+
+.video-content {
+    height: 75%;
+    width: 75%;
+}
+
+.video-item {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.video-content{
+    position:relative;
+    max-width:800px;
+    margin:0 auto;
+}
+
+.video-content iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    height:100%;
+    width:100%;
 }
