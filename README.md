@@ -41,13 +41,13 @@ screens, this button is replaced with a map object. The footer also contains a s
 
 ![CCNP Modal](assets/images/ccnp_modal.jpg)
 
-### [index.html](index.html)
+### [index.html](https://damien-meere.github.io/frontend-milestone/index.html)
 
 The Index page is a welcome page that introduces Eolas. This page introduces the main areas of the site, as well as illustrating the main certification partners, accessible through an image carousel.
 
 ![Index Page](assets/images/index_page.gif)
 
-### [technical.html](technical.html)
+### [technical.html](https://damien-meere.github.io/frontend-milestone/technical.html)
 
 The Technical page is broken into five seperate sections, each of which fills the full screen. The first is a welcome panel describing the company's technical training services. The second is illustrates
 the available Cisco programmes (CCNA, CCNP, CCIE). The buttons each link to a booking form modal (as ilustrated in the General Notes section). Some programmes are a composite of multiple training courses,
@@ -56,21 +56,21 @@ contains a short demo video illustrating the potential for video training. Again
 
 ![Technical Page](assets/images/tech_page.gif)
 
-### [professional.html](professional.html)
+### [professional.html](https://damien-meere.github.io/frontend-milestone/professional.html)
 
 The Professional page is similiar in structure to the Technical page, except this page only has three sections, a welcome panel and two training panels covering Management training and Organisational
 change training.
 
 ![Professional Page](assets/images/prof_page.gif)
 
-### [soft-skills.html](soft-skills.html)
+### [soft-skills.html](https://damien-meere.github.io/frontend-milestone/soft-skills.html)
 
 Similare to the Professional and Technical pages, this page is broken into a Welcome panel and a training panel. Within the training panel, a nomber of available trainign options are highlighted, all related
 to soft-skills/personal development.
 
-![Soft-SKills Page](assets/images/personal_page.gif)
+![Soft-Skills Page](assets/images/personal_page.gif)
 
-### [contact.html](contact.html)
+### [contact.html](https://damien-meere.github.io/frontend-milestone/contact.html)
 
 The Contact page contains two sections, the first of which calls out the location informationa and contact details for Eolas. The second panel presents the user with a Contact form. This form has some 
 basic validation functionality, as described in the testing section. Upon successful submission of this form, a modal will pop-up to confirm that the message has been sent, and a training rep will 
