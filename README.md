@@ -14,7 +14,7 @@ The goal in developing this site to to make it easy for training candidates to a
 This site is built to provide this capability regardless of the devices utilised to access the site. Therefore, trhought out the site, two versions of content are presented. 
 On larger screens, more verbose content is rpesented. However, on smaller screens, text is kept to a minimum to ensure only the most pertinant information is shown.
 
-I want to provide a brief beakdown of the areas of training that this company offer on the home page, 
+
 
 A link to various social media platforms (i.e. LinkedIn profile, GitHub, twitter etc.) are also provided to illustrate this functionality. I've not built social media profiles for my training company, 
 so these links refer directly to each site's homepage.
@@ -32,6 +32,9 @@ in the Navbar (visible on larger screens).There is currently no back-end to harn
 
 I've impletemented a basic script to validate inputs to the contact form. This enforces the inclusion of input to the Name field, as well a proper formatting for the email field. 
 This also ensures content within the message section of the page.
+
+I've included a section within the Technical page to illustrate the capability of Eolas to deliver Video Training programmes. The short video snippet I've embedded within the page is 60 seconds long 
+and discusses the ARP Protocol in Networking. 
 
 ## Future Features 
 In future, the booking form illustrating course availability progress bars, will be linked to a working database in order to give training candidates an accurate view of available space on the coure. 
