@@ -9,8 +9,6 @@ feedback from users.
 ## Demo
 A live demo can be found [Here](https://damien-meere.github.io/frontend-milestone/index.html)
 
-<!--Need to create a site demo gif to illustrate the front page of the site scrolling-->
-
 ## UX
 My goal in developing this site to to make it easy for training candidates to access information on available training options, through a minimalist, sleek, easy-to-navigate site. 
 This site is built to provide this capability regardless of the devices utilised to access the site. Therefore, throughout the site, two versions of content are presented. 
@@ -33,17 +31,52 @@ to select the course they require.
 
 ## Page Notes
 
-### index.html
+### General Notes
+
+The navbar is dynamic and will alter depending on the size of the screen employed to view the site. A 'Get in Touch' button is only available on large screens, however this contact functionality is 
+also available via the contact page.
+
+The footer contains details of the company's location. ON small screens this section contains a button that links away to google maps. The location called out is the BT offices in Dundrum. On larger
+screens, this button is replaced with a map object. The footer also contains a section highlighting some popular courses via buttons. These buttons link to course booking modals (See Below):
+
+![CCNP Modal](assets/images/ccnp_modal.jpg)
+
+### [index.html](index.html)
+
+The Index page is a welcome page that introduces Eolas. This page introduces the main areas of the site, as well as illustrating the main certification partners, accessible through an image carousel.
 
 ![Index Page](assets/images/index_page.gif)
 
-### technical.html
+### [technical.html](technical.html)
 
-### professional.html
+The Technical page is broken into five seperate sections, each of which fills the full screen. The first is a welcome panel describing the company's technical training services. The second is illustrates
+the available Cisco programmes (CCNA, CCNP, CCIE). The buttons each link to a booking form modal (as ilustrated in the General Notes section). Some programmes are a composite of multiple training courses,
+therefore there is a dropdown menu for users to book the requisite course. The third and fourth sections are similiar in structure to this, but cover Nokia and Cybersecurity offerings. The final section
+contains a short demo video illustrating the potential for video training. Again, all sections are accessible directly via anchor links in the navbar.
 
-### soft-skills.html
+![Technical Page](assets/images/tech_page.gif)
 
-### contact.html
+### [professional.html](professional.html)
+
+The Professional page is similiar in structure to the Technical page, except this page only has three sections, a welcome panel and two training panels covering Management training and Organisational
+change training.
+
+![Professional Page](assets/images/prof_page.gif)
+
+### [soft-skills.html](soft-skills.html)
+
+Similare to the Professional and Technical pages, this page is broken into a Welcome panel and a training panel. Within the training panel, a nomber of available trainign options are highlighted, all related
+to soft-skills/personal development.
+
+![Soft-SKills Page](assets/images/personal_page.gif)
+
+### [contact.html](contact.html)
+
+The Contact page contains two sections, the first of which calls out the location informationa and contact details for Eolas. The second panel presents the user with a Contact form. This form has some 
+basic validation functionality, as described in the testing section. Upon successful submission of this form, a modal will pop-up to confirm that the message has been sent, and a training rep will 
+be in touch.
+
+![Index Page](assets/images/contact_page.gif)
 
 ## Current Features
 This site uses the JSFiddle script to enable the alteration of booking modals, depending on the chosen programme.
