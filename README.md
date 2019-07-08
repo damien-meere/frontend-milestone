@@ -133,7 +133,7 @@ A number of photos were taken from [Pexels](https://www.pexels.com/), a stock im
 <!--Achnowledge any third-party utilities employed in the development of this site-->
 The JSFiddle Javascript function, which is used to alter the contents of the course booking modals based on the selection of the dropdown menu can be found [Here](http://jsfiddle.net/TLBvx/252/).
 
-Adobe Color Wheel [Found Here](https://color.adobe.com/create) utilised to align color schemes.
+[Adobe Color Wheel](https://color.adobe.com/create) utilised to align color schemes.
 
 ### Content
 Most of the content on the site was written by me. However, there are course details & desctiptions on the site that apply to real-world certifications and accreditations. As such, in some cases, 
