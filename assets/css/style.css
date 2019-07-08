@@ -35,6 +35,8 @@ body {
 .contact-jumbo {
     background-color: transparent;
     color: white;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .jumbotron-header {
@@ -92,6 +94,10 @@ body {
 
 .welcome-lead {
     font-size: 20px;
+}
+
+.welcome-lead-small {
+    font-size: 15px;
 }
 
 .domain {
@@ -170,7 +176,7 @@ body {
 
 .callout-lead-small {
     color: #d7dce2;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .uppercase {

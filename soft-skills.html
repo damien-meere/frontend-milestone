@@ -32,8 +32,8 @@
 
                     <!--Creating Dropdown items to link to the various parts of the three training pages-->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="technical.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technical</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="nav-link dropdown-toggle" href="technical.html" id="navbarDropdownMenuLinkTech" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technical</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkTech">
                             <a class="dropdown-item" href="technical.html#cisco">Cisco Networking</a>
                             <a class="dropdown-item" href="technical.html#nokia">Nokia Networking</a>
                             <a class="dropdown-item" href="technical.html#cybersecurity">Cybersecurity</a>
@@ -41,8 +41,8 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="professional.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Professional Development</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="nav-link dropdown-toggle" href="professional.html" id="navbarDropdownMenuLinkProf" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Professional Development</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkProf">
                             <a class="dropdown-item" href="professional.html#manage">Management & Leadership</a>
                             <a class="dropdown-item" href="professional.html#org-change">Organisational Change</a>
                         </div>
@@ -72,25 +72,25 @@
                 <section class="callout jumbotron soft-jumbo text-center">
                     <!--Header altered depending on screen size, less text on mobile device-->
                     <h1 class="jumbotron-header d-none d-lg-block">Personal/Soft-Skills development is a crucial area for any business as in every job we engage with others, either inside or outside of our organization.</h1>
-                    <h1 class="jumbotron-header d-block d-md-none">Soft-Skills Training</h1>
+                    <h1 class="jumbotron-header d-block d-md-block d-lg-none">Soft-Skills Training</h1>
                     <!-- hr = Horizontal rule -->
                     <hr class="block-divider">
                     <p class="tech-lead d-none d-lg-block">Soft skills are interpersonal skills hardwired to an individual’s personality, and they characterize how you interact with other people in the workplace. Soft skills include people skills, social skills, character traits, interpersonal
                         skills, and transferable skills. Our catalogue of training programmes can aid you people in enhancing these skills, and delivering more for your organisation and your customers</p>
-                    <p class="callout-lead-small d-block d-md-none">Our programmes deal with people skills, social skills, character traits, interpersonal skills, and transferable skills</p>
+                    <p class="callout-lead-small d-block d-md-block d-lg-none">Our programmes deal with people skills, social skills, character traits, interpersonal skills, and transferable skills</p>
                 </section>
             </div>
         </div>
     </div>
 
     <!--soft-skills Callout-->
-    <a name="manage"></a>
+    <a id="manage"></a>
     <div class="container-fluid personal-container">
         <div class="row">
             <div class="col-12">
                 <section class="jumbotron jumbotron-fluid text-center personal-jumbotron">
                     <div class="d-none d-sm-block">
-                        <img src="assets/images/pexels-photo-990817.jpeg" class="mr-3 my-3 rounded img-thumbnail mx-auto fill" height=100 width=250>
+                        <img src="assets/images/pexels-photo-990817.jpeg" alt="personal" class="mr-3 my-3 rounded img-thumbnail mx-auto fill" height=100 width=250>
                     </div>
                     <h2 class="display-4">Soft-Skills Training Options</h2>
                     <hr class="my-4">
@@ -143,9 +143,9 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name1" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail1" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber1" placeholder="Phone Number">
                         </div>
                         <!--<button type="submit" class="btn btn-success">Request Space</button>-->
                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
@@ -186,9 +186,9 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name2" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail2" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber2" placeholder="Phone Number">
                         </div>
                         <!--<button type="submit" class="btn btn-success">Request Space</button>-->
                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
@@ -229,9 +229,9 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name3" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber3" placeholder="Phone Number">
                         </div>
                         <!--<button type="submit" class="btn btn-success">Request Space</button>-->
                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
@@ -272,9 +272,9 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name4" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber4" placeholder="Phone Number">
                         </div>
                         <!--<button type="submit" class="btn btn-success">Request Space</button>-->
                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
@@ -299,7 +299,7 @@
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
-                                <a target="_blank" href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-routing-switching.html"><img src="assets/images/ccna_logo.jpg" class="e mr-3 my-3 rounded-circle img-thumbnail mx-auto"></a>
+                                <a target="_blank" href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-routing-switching.html"><img src="assets/images/ccna_logo.jpg" alt="ccna" class="e mr-3 my-3 rounded-circle img-thumbnail mx-auto"></a>
                             </div>
                             <div class="col-9">
                                 <p>Develops candidate's knowledge and skills related to network fundamentals, LAN switching technologies, IPv4 and IPv6 routing technologies, WAN technologies, infrastructure services, infrastructure security, and infrastructure
@@ -317,9 +317,9 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name5" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail5" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber5" placeholder="Phone Number">
                         </div>
                         <!--<button type="submit" class="btn btn-success">Request Space</button>-->
                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
@@ -361,9 +361,9 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name6" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail6" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber6" placeholder="Phone Number">
                         </div>
                         <!--<button type="submit" class="btn btn-success">Request Space</button>-->
                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
@@ -388,7 +388,7 @@
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
-                                <img src="assets/images/green_belt.jpeg" class="mr-3 my-3 rounded img-thumbnail mx-auto fill">
+                                <img src="assets/images/green_belt.jpeg" alt="Green Belt" class="mr-3 my-3 rounded img-thumbnail mx-auto fill">
                             </div>
                             <div class="col-9">
                                 <p>Six Sigma Green Belt introduces candidates methods for developing and improving products, services and processes. They learn to apply problem-solving frameworks such as DMAIC (Define, Measure, Analyze, Improve and Control)
@@ -406,9 +406,9 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name7" placeholder="Name"><br>
+                            <input type="email" class="form-control" id="inputEmail7" placeholder="Email"><br>
+                            <input type="text" class="form-control" id="phoneNumber7" placeholder="Phone Number">
                         </div>
                         <!--<button type="submit" class="btn btn-success">Request Space</button>-->
                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
@@ -473,10 +473,10 @@
                     <form>
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Name">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
                             </div>
                             <div class="col">
-                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                             </div>
                         </div>
                         <br>
@@ -509,14 +509,12 @@
                 <!--Map object, only visible on large screens, on smaller screens, just include Google Maps link-->
                 <div class="d-none d-xl-block">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d596.0644018487607!2d-6.244439270730814!3d53.3028326001729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867094556fc6bed%3A0x7eed156a9d541b63!2sBT!5e0!3m2!1sen!2sie!4v1561150143818!5m2!1sen!2sie"
-                        width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        width="400" height="300" style="border:0" allowfullscreen></iframe>
                 </div>
                 <div class="d-block d-lg-none">
                     <!-- On smaller screens, instead of the map object, include a button linking to the Google Maps site -->
-                    <a type="button" class="btn btn-secondary" href="https://goo.gl/maps/xej5wPTEFiJMdCRTA" target="_blank">Find us here</a>
+                    <a role="button" class="btn btn-secondary" href="https://goo.gl/maps/xej5wPTEFiJMdCRTA">Find us here</a>
                 </div>
-
-
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Popular Courses</h5>
@@ -524,7 +522,6 @@
                     <button type="button" class="btn btn-primary btn-lg btn-block btn--course" data-toggle="modal" data-target="#ccnaModal">Cisco Certified Network Associate</button>
                     <button type="button" class="btn btn-warning btn-lg btn-block btn--course" data-toggle="modal" data-target="#conflictModal">Managing Conflict</button>
                     <button type="button" class="btn btn-success btn-lg btn-block btn--course" data-toggle="modal" data-target="#greenModal">Six Sigma - Green Belt</button>
-
                 </p>
             </div>
             <div class="col-sm-4">
@@ -535,38 +532,32 @@
                     <li class="list-inline-item">
                         <a target="_blank" href="http://www.facebook.com">
                             <i class="fab fa-facebook" aria-hidden="true"></i>
-                            <!--Screen Reader Only (replace icon with text)-->
-                            <span class="sr-only">Facebook</span>
+                            <span class="sr-only">Facebook</span></a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="http://www.twitter.com">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <!--Screen Reader Only (replace icon with text)-->
-                            <span class="sr-only">Twitter</span>
+                            <span class="sr-only">Twitter</span></a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="http://www.linkedin.com">
                             <i class="fab fa-linkedin" aria-hidden="true"></i>
-                            <!--Screen Reader Only (replace icon with text)-->
-                            <span class="sr-only">LinkedIn</span>
+                            <span class="sr-only">LinkedIn</span></a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="http://www.pinterest.com">
                             <i class="fab fa-pinterest" aria-hidden="true"></i>
-                            <!--Screen Reader Only (replace icon with text)-->
-                            <span class="sr-only">Pinterest</span>
+                            <span class="sr-only">Pinterest</span></a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="http://www.instagram.com">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <!--Screen Reader Only (replace icon with text)-->
-                            <span class="sr-only">Instagram</span>
+                            <span class="sr-only">Instagram</span></a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="http://www.youtube.com">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
-                            <!--Screen Reader Only (replace icon with text)-->
-                            <span class="sr-only">YouTube</span>
+                            <span class="sr-only">YouTube</span></a>
                     </li>
                 </ul>
             </div>
