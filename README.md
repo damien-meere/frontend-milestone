@@ -2,8 +2,9 @@
 User-Centric Frontend Development Milestone Project - Code Institute 
 
 This project website will highlight my capability to employ the various tools illustrated through out the User-centric frontend development section of the Code Institute programme. 
-This site will be a mock-up of a training company site. This will house information from three different strands of training - Technical, Management and Soft-Skills training. This is also a contact
-page with details of the company and a form with which
+This site will be a mock-up of a training company site. This will house information from three different strands of training - Technical, Management and Soft-Skills training. Each of sections is housed 
+within it's own page. The dropdown menus within the navigation bar link to various sections within these strands. There is also a contact page with details of the company and a form with which to harness
+feedback from users.
 
 ## Demo
 A live demo can be found [Here](https://damien-meere.github.io/frontend-milestone/index.html)
@@ -22,12 +23,25 @@ view of the course descriptions, upcoming course dates, and a view of the course
 a number of accreditations, there are numerous courses which must be undertaken to complete the accreditation. Therefore, within the bookings modals, I've included a dropdown options, to allow the user
 to select the course they require.
 
-
-
 ## Technologies
 1. HTML
 2. CSS
 3. Bootstrap (4.3.1)
+4. FontAwesome
+5. Google Font
+6. JQuery
+
+## Page Notes
+
+### index.html
+
+### technical.html
+
+### professional.html
+
+### soft-skills.html
+
+### contact.html
 
 ## Current Features
 This site uses the JSFiddle script to enable the alteration of booking modals, depending on the chosen programme.
