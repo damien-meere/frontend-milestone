@@ -213,6 +213,11 @@ body {
     font-size: 30px;
 }
 
+.soft-lead-small {
+    color: #6b4242;
+    font-size: 25px;
+}
+
 .org-lead {
     font-size: 20px;
 }
