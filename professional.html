@@ -17,7 +17,7 @@
 <body>
     <!--Navbar-->
     <div class="container-fluid nav-container">
-        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
             <a href="index.html" class="navbar-brand">Eolas Training</a>
 
             <!-- creating a collapsible navbarNavDropdown div for mobile devices, so as not to eat up realestate on the screen -->
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <!-- Create menu with navigation links -->
                 <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
 
                     <!--Creating Dropdown items to link to the various parts of the three training pages-->
                     <li class="nav-item dropdown">
@@ -41,7 +41,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="professional.html" id="navbarDropdownMenuLinkProf" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Professional Development</a>
+                        <a class="active nav-link dropdown-toggle" href="professional.html" id="navbarDropdownMenuLinkProf" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Professional Development</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkProf">
                             <a class="dropdown-item" href="professional.html#manage">Management & Leadership</a>
                             <a class="dropdown-item" href="professional.html#org-change">Organisational Change</a>
@@ -53,9 +53,7 @@
                     <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
-
-            <!--Marketing text + Get in Touch button visible on medium screens and above -->
-            <div class="d-none d-md-block">
+            <div class="d-none d-lg-block">
                 <p class="navbar-text my-auto mr-2"><i>Delivering Exceptional Training</i></p>
                 <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#inTouchModal">Get In Touch</button>
             </div>
