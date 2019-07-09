@@ -208,6 +208,11 @@ body {
     font-size: 30px;
 }
 
+.soft-lead {
+    color: #6b4242;
+    font-size: 30px;
+}
+
 .org-lead {
     font-size: 20px;
 }
