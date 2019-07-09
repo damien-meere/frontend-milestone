@@ -97,7 +97,7 @@
                     <div class="domain">
                         <!--d-sm-inline class puts the icon inline with the feature title, chage this to d-sm-block to move to another line-->
                         <h4><i class="fas fa-cogs d-none d-sm-block"></i> Technical Training</h4>
-                        <p class="d-none d-lg-block">We offer a huge variety of Network training, across a number of vendors, in particular Cisco, Nokia and Juniper. We offer ongooing public training options on the certification tracks for all major vendors. We can also facilitate
+                        <p class="d-none d-lg-block">We offer a huge variety of Network training, across a number of vendors, in particular Cisco, Nokia and Juniper. We offer ongoing public training options on the certification tracks for all major vendors. We can also facilitate
                             more specialist training on request. </p>
                         <p class="d-block d-lg-none">Click on the button below to find out about our Networking training options</p>
                         <p><a class="btn btn-light btn-sm" href="technical.html">Learn More</a></p>
@@ -108,7 +108,7 @@
                         <h4><i class="fas fa-user-tie d-none d-sm-block"></i> Professional Development</h4>
                         <p class="d-none d-lg-block">Our professional development courses designed so that you can take these powerful tools & methodologies and deploy them immediately within your organisation, through practical, hands-on simulations and exercises. We can support
                             you on your Lean & Six Sigma Journey</p>
-                        <p class="d-block d-lg-none">Click on the button below to find out more training to support your Lean, Six Sigma or Lean Six Sigma journeys.</p>
+                        <p class="d-block d-lg-none">Click on the button below to find out more training to support your Lean or Six Sigma journeys.</p>
                         <p><a class="btn btn-light btn-sm" href="professional.html">Learn More</a></p>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="domain">
                         <h4><i class="fas fa-users d-none d-sm-block"></i> Personal/Soft-Skills</h4>
-                        <p class="d-none d-lg-block">We know how important quality is to your soft-skills investment. Our community of highly experienced trainers, coming from from a wide variety of industries, will develop and deliver the exact training your organisation needs,
+                        <p class="d-none d-lg-block">We know how important quality is to your soft-skills investment. Our community of highly experienced trainers, coming from a wide variety of industries, will develop and deliver the exact training your organisation needs,
                             to the highest standards.</p>
                         <p class="d-block d-lg-none">We can develop and deliver the exact training your organisation needs, to the highest standards. Click below to find out more.</p>
                         <p><a class="btn btn-light btn-sm" href="soft-skills.html">Learn More</a></p>
@@ -259,7 +259,7 @@
                             <input type="email" class="form-control" id="inputEmail2" placeholder="Email"><br>
                             <input type="text" class="form-control" id="phoneNumber2" placeholder="Phone Number">
                         </div>
-                        <button type="submit" class="btn btn-success">Request Space</button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -302,7 +302,7 @@
                             <input type="email" class="form-control" id="inputEmail3" placeholder="Email"><br>
                             <input type="text" class="form-control" id="phoneNumber3" placeholder="Phone Number">
                         </div>
-                        <button type="submit" class="btn btn-success">Request Space</button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -346,8 +346,28 @@
                             <input type="email" class="form-control" id="inputEmail4" placeholder="Email"><br>
                             <input type="text" class="form-control" id="phoneNumber4" placeholder="Phone Number">
                         </div>
-                        <button type="submit" class="btn btn-success">Request Space</button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Course Request Modal (overlay) -->
+    <div class="modal fade show" tabindex="-2" role="dialog" id="requestResponseModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Thank you for your Request</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="text-align:center;">One of our training coordinators will be in contact within 24 hours to confirm your space on this programme</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
