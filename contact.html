@@ -100,8 +100,9 @@
                     <h2 class="display-4">Get In Touch</h2>
                     <hr class="my-4">
                     <p class="lead">Looking for the most effective training options? <br> Request a call our Training Consultants, and they’ll guide you on the most appropriate options.</p>
-
-                    <form name="ContactForm" action="submit" onsubmit="return contactFormValidation()" method="post">
+                    
+                    <!--Action set to call the contact.html page but with the addition of the submission modal. Javascript function fulfills this functionality-->
+                    <form name="ContactForm" action="contact.html#submissionModal" id="contactForm" method="post" onsubmit="javascript:contactFormValidation()">
                         <div class="row">
                             <div class="col">
                                 <input type="text" class="form-control" id="Name0" placeholder="Name" required>
@@ -112,7 +113,7 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="phoneNumber0" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="phoneNumber0" placeholder="Phone Number" required>
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" id="subject0" placeholder="Subject">
@@ -120,16 +121,12 @@
                         <div class="form-group">
                             <textarea class="form-control" id="message0" placeholder="Message" required rows="5"></textarea>
                         </div>
-                        <!--Using sumbit as type so as to ensure that fields are validated.-->
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>
                 </section>
             </div>
         </div>
     </div>
-
-
-
 
     <!-- Submission Modal (overlay) -->
     <div class="modal fade show" tabindex="-2" role="dialog" id="submissionModal">
@@ -166,7 +163,7 @@
                     <form>
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Name">
+                                <input type="text" class="form-control" id="name" placeholder="Name">
                             </div>
                             <div class="col">
                                 <input type="email" class="form-control" id="inputEmail" placeholder="Email">
@@ -182,6 +179,7 @@
                         <div class="form-group">
                             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
                         </div>
+                        <!--On Submission, 'Get in Touch' Modal closes, and a feedback modal opens. In future will need to validate input from the modal-->
                         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#submissionModal" data-dismiss="modal">Submit</button>
                     </form>
                 </div>

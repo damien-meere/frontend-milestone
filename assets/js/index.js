@@ -10,11 +10,11 @@ $(document).ready(function() {
 
 
 function contactFormValidation() {
-    var name = document.forms["ContactForm"]["Name"];
-    var email = document.forms["ContactForm"]["Email"];
-    var phone = document.forms["ContactForm"]["phoneNumber"];
-    var what = document.forms["ContactForm"]["subject"];
-    var message = document.forms["ContactForm"]["Message"];
+    var name = document.forms["ContactForm"]["Name0"];
+    var email = document.forms["ContactForm"]["Email0"];
+    var phone = document.forms["ContactForm"]["phoneNumber0"];
+    var msg = document.forms["ContactForm"]["subject0"];
+    var message = document.forms["ContactForm"]["Message0"];
 
     if (name.value == "") {
         window.alert("Please enter your name.");
@@ -46,9 +46,9 @@ function contactFormValidation() {
         return false;
     }
 
-    if (what.value == "") {
+    if (msg.value == "") {
         window.alert("Please enter a Subject");
-        what.focus();
+        msg.focus();
         return false;
     }
 
@@ -59,4 +59,18 @@ function contactFormValidation() {
     }
 
     return true;
+
+
 }
+
+/*fucntion to call a specific modal is the URL contains #*/
+jQuery(document).ready(function($) {
+    var target = document.location.hash.replace("#", "");
+    if (target.length) {
+        if (target == "submissionModal") {
+            $('#submissionModal').modal('show');
+        }
+    }
+    else {}
+});
+

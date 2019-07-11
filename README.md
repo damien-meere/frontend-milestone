@@ -128,6 +128,10 @@ At the moment, user inputs are acknowledged through automated reponse modals. In
 the back-end of the site. Rather than a notification that a company representative will be in contact, that input will be validated, and stored within the back-end database, and reflected in the 
 course availability progress bars.
 
+Improved validation of all user inputs is required. For example, at the moment, on submisson of the form within the 'Get In Touch' button, the user is presented with the submission modal to say a 
+rep will be in contact, regardless of input. As yet, there is no validation of the inputted information, or checks as to whether information is inputted at all. In future, all input from users will need
+to be effectively validated to ensure clean information makes it to the site backend database. This includes the effecive checking of emails to ensure they are valid.
+
 ## Testing
 The site user-story outcomes achieved the originally intended outcomes, in providing them with a view to the training capabilities of 'Eolas', and specifically illustrating the programmes delivered. 
 Within each section (Technical, Professional/Organisational and Personal/Soft-Skills), the user is presented with a breakdown of all available programmes. On clicking the requisite course button, the user
@@ -163,6 +167,9 @@ and ensured all elements fit within the requisite space.
 ## Testing-Unresolved_Bugs
 Unfortunately, when a users zooms in on a page (settings within the users own browser), this can effect the placement of elements within a page. In some cases, jumbotrons can begin to overlap and 
 obscure certain elements. 
+
+On submisson of the form within the 'Get In Touch' button, at the moment, this just calls the submission modal to say a rep will be in contact, regardless of input. As yet, there is no validation of the 
+inputted information, or checks as to whether information is inputted at all. This will need to be developed further in the next iteration of the site.
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. 
