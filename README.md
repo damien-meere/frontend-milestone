@@ -145,13 +145,11 @@ All CSS and HTML files were passed through code validators. The [CSS Validator](
 against the w3c standards. On each page, there is an ongoing error "Attribute aria-valuamin not allowed on element div" related to the use of [Bootstrap Progress Bars](https://getbootstrap.com/docs/4.3/components/progress/). 
 However, the aria-valuemin is required for the progress bar element to work. So these apparent errors do remain.
 
-I've impletemented a basic script to validate inputs to the contact form. This enforces the inclusion of input to the 'Name' field, as well a proper valid formatting for the 'Email' field. An error notification
+A Javascript is used  to validate inputs to the contact page main form. This enforces the inclusion of input to the 'Name' field, as well a proper valid formatting for the 'Email' field. An error notification
 is returned should there be missing, or invalid data entered. The 'required' attribute is added to each of the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will 
 not submit. If all fields are completed with valid information, on submission, a notification Modal will appear to let the user know that the training rep from Eolas will be contact with 24 hours to 
-confirm their position on the programme.
-
-In handling this function, some issues were encountered, in particualr to do with the fact that GitHub pages do not allow for form submission, as they are meant to be host static pages, not pages linking
-to back-end functionality. the issues around this are called out in the [Unresolved Bugs](#Testing-Unresolved_Bugs) section.
+confirm their position on the programme. I've implemented a script that allows the submission modal to be called when specified after a '#' within the contact page URL. So on submission of the form, 
+'contact.html#submissionModal' calls the contact page with the modal overlayed as illustrated [HERE](https://damien-meere.github.io/frontend-milestone/contact.html#submissionModal). 
 
 All external links will open in a new tab using 'target="_blank"'.  All external links have been manually tested to ensure that they are pointing to the correct destination.
 
@@ -168,12 +166,6 @@ of section heads for both large screens and small. When the site width is being 
 and ensured all elements fit within the requisite space.
 
 ## Testing-Unresolved_Bugs
-I've implemented a script that allows the submission modal to be called when specified after a '#' within the contact page URL. This works perfectly within cloud9, so on submission of the 
-form, 'contact.html#submissionModal' calls the contact page with the modal overlayed as illustrated [HERE](https://damien-meere.github.io/frontend-milestone/contact.html#submissionModal). However, GitHub 
-pages offers static web pages hosting only. So submission of forms is not allowed. So when the site links utilises the 'action' element of the form, this links to a '405 Not Allowed' error page. As 
-illustrated with the link above, the script function works well, however, a full site hosting would be required to allow this to work seamlessly. I've left this in place as the form validation hinges on 
-form submission.
-
 When a users zooms in on a page (settings within the users own browser), this can effect the placement of elements within a page. In some cases, jumbotrons can begin to overlap and 
 obscure certain elements. 
 
