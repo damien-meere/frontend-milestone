@@ -57,10 +57,7 @@ function contactFormValidation() {
         message.focus();
         return false;
     }
-
     return true;
-
-
 }
 
 /*function to call a specific modal if the URL contains #*/

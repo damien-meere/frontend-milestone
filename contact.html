@@ -100,9 +100,8 @@
                     <h2 class="display-4">Get In Touch</h2>
                     <hr class="my-4">
                     <p class="lead">Looking for the most effective training options? <br> Request a call our Training Consultants, and they’ll guide you on the most appropriate options.</p>
-                    
                     <!--Action set to call the contact.html page but with the addition of the submission modal. Javascript function fulfills this functionality-->
-                    <form name="ContactForm" action="contact.html#submissionModal" id="contactForm" onsubmit="javascript:contactFormValidation()">
+                    <form action="contact.html#submissionModal" name="ContactForm" id="contactForm" onsubmit="javascript:contactFormValidation()">
                         <div class="row">
                             <div class="col">
                                 <input type="text" class="form-control" id="Name0" placeholder="Name" required>
@@ -121,6 +120,8 @@
                         <div class="form-group">
                             <textarea class="form-control" id="message0" placeholder="Message" required rows="5"></textarea>
                         </div>
+                        <!--Github pages do not allow form submission with backend functionality, only static pages. 
+                        Therefore the submit button causes a '405 Not Allowed' error-->
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>
                 </section>

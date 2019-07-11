@@ -150,6 +150,9 @@ is returned should there be missing, or invalid data entered. The 'required' att
 not submit. If all fields are completed with valid information, on submission, a notification Modal will appear to let the user know that the training rep from Eolas will be contact with 24 hours to 
 confirm their position on the programme.
 
+In handling this function, some issues were encountered, in particualr to do with the fact that GitHub pages do not allow for form submission, as they are meant to be host static pages, not pages linking
+to back-end functionality. the issues around this are called out in the [Unresolved Bugs](#Testing-Unresolved_Bugs) section.
+
 All external links will open in a new tab using 'target="_blank"'.  All external links have been manually tested to ensure that they are pointing to the correct destination.
 
 Internal links on each page were individually tested to ensure they navigated to the requisite page. Within the navbar, within link dropdowns, the links navigate to specific anchors within a particular
@@ -165,7 +168,13 @@ of section heads for both large screens and small. When the site width is being 
 and ensured all elements fit within the requisite space.
 
 ## Testing-Unresolved_Bugs
-Unfortunately, when a users zooms in on a page (settings within the users own browser), this can effect the placement of elements within a page. In some cases, jumbotrons can begin to overlap and 
+I've implemented a script that allows the submission modal to be called when specified after a '#' within the contact page URL. This works perfectly within cloud9, so on submission of the 
+form, 'contact.html#submissionModal' calls the contact page with the modal overlayed as illustrated [HERE](https://damien-meere.github.io/frontend-milestone/contact.html#submissionModal). However, GitHub 
+pages offers static web pages hosting only. So submission of forms is not allowed. So when the site links utilises the 'action' element of the form, this links to a '405 Not Allowed' error page. As 
+illustrated with the link above, the script function works well, however, a full site hosting would be required to allow this to work seamlessly. I've left this in place as the form validation hinges on 
+form submission.
+
+When a users zooms in on a page (settings within the users own browser), this can effect the placement of elements within a page. In some cases, jumbotrons can begin to overlap and 
 obscure certain elements. 
 
 On submisson of the form within the 'Get In Touch' button, at the moment, this just calls the submission modal to say a rep will be in contact, regardless of input. As yet, there is no validation of the 
