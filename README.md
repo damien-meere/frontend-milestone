@@ -9,13 +9,13 @@ feedback from users.
 ### Table of Contents
 
 - [Demo](#Demo)
-- [UX + User Stories](#UX)
+- [UX + User Stories](#UX+User-Stories)
 - [Technologies](#Technologies)
-- [Page Notes](#Demo)
-- [Current Features](#Current)
-- [Future Features](#Future)
+- [Page Notes](#Page-Notes)
+- [Current Features](#Current-Features)
+- [Future Features](#Future-Features)
 - [Testing](#Testing)
-- [Testing -  Unresolved Bugs](#Unresolved)
+- [Testing -  Unresolved Bugs](#Testing- Unresolved_Bugs)
 - [Deployment](#Deployment)
 - [Media](#Media)
 - [Acknowledgements](#Acknowledgements)
@@ -24,7 +24,7 @@ feedback from users.
 ## Demo
 A live demo can be found [Here](https://damien-meere.github.io/frontend-milestone/index.html)
 
-## UX + User Stories
+## UX+User-Stories
 My goal in developing this site to to make it easy for training candidates to access information on available training options, through a minimalist, sleek, easy-to-navigate site. Therefore, in designing
 this site, I started with a numeber of user stories:
 
@@ -63,7 +63,7 @@ contact with the user to confirm details. As highlighted in the upcoming 'Future
 5. Google Font
 6. JQuery
 
-## Page Notes
+## Page-Notes
 
 ### General Notes
 
@@ -112,7 +112,7 @@ be in touch.
 
 ![Index Page](assets/images/contact_page.gif)
 
-## Current Features
+## Current-Features
 This site uses the JSFiddle script to enable the alteration of booking modals, depending on the chosen programme.
 
 I've created a number of response modals to illustrate an automated response to user inputs. This occurs when a user submits a request for a space within a course, or when the use uses the 'Get In Touch' Button
@@ -121,7 +121,7 @@ in the Navbar (visible on larger screens).There is currently no back-end to harn
 I've included a section within the Technical page to illustrate the capability of Eolas to deliver Video Training programmes. The short video snippet I've embedded within the page is 60 seconds long 
 and discusses the ARP Protocol in Networking. 
 
-## Future Features 
+## Future-Features 
 In future, the booking form illustrating course availability progress bars, will be linked to a working database in order to give training candidates an accurate view of available space on the coure. 
 
 At the moment, user inputs are acknowledged through automated reponse modals. In the next iteration of this site, user inputs will be harnessed from the booking forms and contact forms, and actioned within
@@ -160,7 +160,7 @@ would appear to the right of the page. I identified that this was caused by sect
 of section heads for both large screens and small. When the site width is being reduced, once a certain threshold is met, the headers will shift. The smaller headers are beter suited to the small screens,
 and ensured all elements fit within the requisite space.
 
-## Testing -  Unresolved Bugs
+## Testing- Unresolved_Bugs
 Unfortunately, when a users zooms in on a page (settings within the users own browser), this can effect the placement of elements within a page. In some cases, jumbotrons can begin to overlap and 
 obscure certain elements. 
 
