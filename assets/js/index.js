@@ -63,8 +63,8 @@ function contactFormValidation() {
 
 }
 
-/*fucntion to call a specific modal is the URL contains #*/
-jQuery(document).ready(function($) {
+/*fucntion to call a specific modal if the URL contains #*/
+$(document).ready(function($) {
     var target = document.location.hash.replace("#", "");
     if (target.length) {
         if (target == "submissionModal") {
