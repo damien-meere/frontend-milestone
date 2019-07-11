@@ -15,7 +15,7 @@ feedback from users.
 - [Current Features](#Current-Features)
 - [Future Features](#Future-Features)
 - [Testing](#Testing)
-- [Testing -  Unresolved Bugs](#Testing- Unresolved_Bugs)
+- [Testing -  Unresolved Bugs](#Testing-Unresolved_Bugs)
 - [Deployment](#Deployment)
 - [Media](#Media)
 - [Acknowledgements](#Acknowledgements)
@@ -160,7 +160,7 @@ would appear to the right of the page. I identified that this was caused by sect
 of section heads for both large screens and small. When the site width is being reduced, once a certain threshold is met, the headers will shift. The smaller headers are beter suited to the small screens,
 and ensured all elements fit within the requisite space.
 
-## Testing- Unresolved_Bugs
+## Testing-Unresolved_Bugs
 Unfortunately, when a users zooms in on a page (settings within the users own browser), this can effect the placement of elements within a page. In some cases, jumbotrons can begin to overlap and 
 obscure certain elements. 
 
