@@ -70,7 +70,7 @@ contact with the user to confirm details. As highlighted in the upcoming 'Future
 The navbar is dynamic and will alter depending on the size of the screen employed to view the site. A 'Get in Touch' button is only available on large screens, however this contact functionality is 
 also available via the contact page.
 
-The footer contains details of the company's location. ON small screens this section contains a button that links away to google maps. The location called out is the BT offices in Dundrum. On larger
+The footer contains details of the company's location. On small screens this section contains a button that links away to google maps. The location called out is the BT offices in Dundrum. On larger
 screens, this button is replaced with a map object. The footer also contains a section highlighting some popular courses via buttons. These buttons link to course booking modals (See Below):
 
 ![CCNP Modal](assets/images/ccnp_modal.jpg)
@@ -156,7 +156,7 @@ Internal links on each page were individually tested to ensure they navigated to
 page, so as to allow users to quickly navigate to the requiste area on the site. 
 
 Links to various social media platforms are highlighted in the page footers (i.e. LinkedIn profile, GitHub, twitter etc.). These are provided to illustrattive purposes. I've not built social media 
-profiles for this training company, so these links refer directly to each platform's homepage.
+profiles for this training company, so these links refer directly to each platform's homepage so as to demonstrate the functionality.
 
 This site was tested across multiple browsers (Chrome, Safari, Firefox), and on multiple devices (Samsung Galaxy S8/S9/S10, Samsung Galaxy Tab, Apple iPad, iPhone 6/7/8) to ensure compatibility 
 and responsiveness. In testing the site across multiple browsers and devices, a number of faults were brought to the fore. In particular, on many of the pages, on certain screen sizes, a white space
