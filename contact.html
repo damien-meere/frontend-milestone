@@ -101,7 +101,7 @@
                     <hr class="my-4">
                     <p class="lead">Looking for the most effective training options? <br> Request a call our Training Consultants, and they’ll guide you on the most appropriate options.</p>
                     <!--Action set to call the contact.html page but with the addition of the submission modal. Javascript function fulfills this functionality-->
-                    <form action="contact.html#submissionModal" name="ContactForm" id="contactForm" onsubmit="javascript:contactFormValidation()">
+                    <form action="contact.html#submissionModal">
                         <div class="row">
                             <div class="col">
                                 <input type="text" class="form-control" id="Name0" placeholder="Name" required>
@@ -149,6 +149,26 @@
         </div>
     </div>
 
+    <!-- Course Request Modal (overlay) -->
+    <div class="modal fade show" tabindex="-2" role="dialog" id="requestResponseModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Thank you for your Request</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="text-align:center;">One of our training coordinators will be in contact within 24 hours to confirm your space on this programme</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Get in Touch Modal (overlay) -->
     <div class="modal fade show" tabindex="-1" role="dialog" id="inTouchModal">
         <div class="modal-dialog" role="document">
@@ -161,27 +181,26 @@
                 </div>
                 <div class="modal-body">
                     <!-- Pasting a basic form element from Bootstrap here for a form -->
-                    <form>
+                    <form action="contact.html#submissionModal">
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" id="name" placeholder="Name">
+                                <input type="text" class="form-control" placeholder="Name" required>
                             </div>
                             <div class="col">
-                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
                             </div>
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number" required>
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" id="subject" placeholder="Subject">
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5" required></textarea>
                         </div>
-                        <!--On Submission, 'Get in Touch' Modal closes, and a feedback modal opens. In future will need to validate input from the modal-->
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#submissionModal" data-dismiss="modal">Submit</button>
+                        <button type="submit" class="btn btn-success">Submit</button>
                     </form>
                 </div>
             </div>
@@ -199,7 +218,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="contact.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -221,9 +240,9 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name2" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail2" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber2" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name2" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail2" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber2" placeholder="Phone Number" required>
                         </div>
                         <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
@@ -243,7 +262,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="contact.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -264,9 +283,9 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name3" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber3" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name3" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber3" placeholder="Phone Number" required>
                         </div>
                         <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
@@ -286,7 +305,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="contact.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -308,9 +327,9 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name4" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber4" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name4" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber4" placeholder="Phone Number" required>
                         </div>
                         <button type="submit" class="btn btn-success">Request Space</button>
                     </form>

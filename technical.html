@@ -213,27 +213,27 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <!-- Pasting a basic form element from Bootstrap here for a form -->
+                    <form action="technical.html#submissionModal">
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" id="name" placeholder="Name">
+                                <input type="text" class="form-control" placeholder="Name" required>
                             </div>
                             <div class="col">
-                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
                             </div>
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number" required>
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" id="subject" placeholder="Subject">
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5" required></textarea>
                         </div>
-                        <!--On Submission, 'Get in Touch' Modal closes, and a feedback modal opens. In future will need to validate input from the modal-->
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#submissionModal" data-dismiss="modal">Submit</button>
+                        <button type="submit" class="btn btn-success" >Submit</button>
                     </form>
                 </div>
             </div>
@@ -261,21 +261,21 @@
     </div>
 
     <!-- CCNA (overlay) -->
-    <div class="modal fade show" tabindex="-1" role="dialog" id="ccnaModal">
+    <div class="modal fade show" tabindex="-1" role="dialog" id="ccnaModal" aria-labelledby="ccnaModalLabel" aria-hidden="true" style="display: none; padding-right: 17px;">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">CCNA - Cisco Certified Network Associate</h5>
+                    <h5 class="modal-title" id="ccnaModalLabel">CCNA - Cisco Certified Network Associate</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="technical.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
-                                <a target="_blank" href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-routing-switching.html"><img src="assets/images/ccna_logo.jpg" alt="ccna" class="e mr-3 my-3 rounded-circle img-thumbnail mx-auto"></a>
+                                <a target="_blank" href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-routing-switching.html"><img src="assets/images/ccna_logo.jpg" alt="Cisco" class="e mr-3 my-3 rounded-circle img-thumbnail mx-auto"></a>
                             </div>
                             <div class="col-9">
                                 <p>Develops candidate's knowledge and skills related to network fundamentals, LAN switching technologies, IPv4 and IPv6 routing technologies, WAN technologies, infrastructure services, infrastructure security, and infrastructure
@@ -293,11 +293,11 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name2" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail2" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber2" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name2" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail2" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber2" placeholder="Phone Number" required>
                         </div>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
+                        <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -315,7 +315,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="technical.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -333,7 +333,6 @@
                             <option value="switch" data-show=".switch">300-115 SWITCH</option>
                             <option value="tshoot" data-show=".tshoot">300-135 TSHOOT</option>
                         </select>
-
                         <div class="my-info-1">
                             <div class="route hide">
                                 <h5>Next Course: 26/08/19</h5>
@@ -365,11 +364,11 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name3" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber3" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name3" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber3" placeholder="Phone Number" required>
                         </div>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
+                        <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -387,7 +386,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="technical.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -428,11 +427,11 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name4" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber4" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name4" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber4" placeholder="Phone Number" required>
                         </div>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
+                        <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -450,7 +449,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="technical.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -472,11 +471,11 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name5" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail5" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber5" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name5" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail5" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber5" placeholder="Phone Number" required>
                         </div>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
+                        <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -495,7 +494,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="technical.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -511,7 +510,6 @@
                             <option value="mpls" data-show=".mpls">Multiprotocol Label Switching (4A0-103)</option>
                             <option value="services" data-show=".services">Services Architecture (4A0-104)</option>
                         </select>
-
                         <div class="my-info-3">
                             <div class="igp hide">
                                 <h5>Next Course: 07/10/19</h5>
@@ -543,11 +541,11 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name6" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail6" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber6" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name6" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail6" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber6" placeholder="Phone Number" required>
                         </div>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
+                        <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -565,7 +563,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="technical.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -623,11 +621,11 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name7" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail7" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber7" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name7" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail7" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber7" placeholder="Phone Number" required>
                         </div>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
+                        <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -645,7 +643,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="technical.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -666,11 +664,11 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name11" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail11" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber11" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name11" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail11" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber11" placeholder="Phone Number" required>
                         </div>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
+                        <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -688,7 +686,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="technical.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -709,11 +707,11 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name8" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail8" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber8" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name8" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail8" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber8" placeholder="Phone Number" required>
                         </div>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
+                        <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -731,7 +729,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="technical.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -752,11 +750,11 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name9" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail9" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber9" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name9" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail9" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber9" placeholder="Phone Number" required>
                         </div>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
+                        <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -774,7 +772,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="technical.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -795,11 +793,11 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name10" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail10" placeholder="Emai "><br>
-                            <input type="text" class="form-control" id="phoneNumber10" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name10" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail10" placeholder="Emai" required><br>
+                            <input type="text" class="form-control" id="phoneNumber10" placeholder="Phone Number" required>
                         </div>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
+                        <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -817,7 +815,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form action="technical.html#requestResponseModal">
                         <div class="row">
                             <div class="col-3">
                                 <h5>Course Details:</h5>
@@ -839,11 +837,11 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name12" placeholder="Name"><br>
-                            <input type="email" class="form-control" id="inputEmail12" placeholder="Email"><br>
-                            <input type="text" class="form-control" id="phoneNumber12" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="name12" placeholder="Name" required><br>
+                            <input type="email" class="form-control" id="inputEmail12" placeholder="Email" required><br>
+                            <input type="text" class="form-control" id="phoneNumber12" placeholder="Phone Number" required>
                         </div>
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#requestResponseModal" data-dismiss="modal">Request Space</button>
+                        <button type="submit" class="btn btn-success">Request Space</button>
                     </form>
                 </div>
             </div>
@@ -921,8 +919,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="assets/js/index.js"></script>
-
-
 </body>
 
 </html>

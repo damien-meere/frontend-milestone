@@ -67,6 +67,9 @@ $(document).ready(function($) {
         if (target == "submissionModal") {
             $('#submissionModal').modal('show');
         }
+        if (target == "requestResponseModal") {
+            $('#requestResponseModal').modal('show');
+        }
     }
     else {}
 });

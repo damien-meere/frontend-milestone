@@ -28,7 +28,7 @@ A live demo can be found [Here](https://damien-meere.github.io/frontend-mileston
 My goal in developing this site to to make it easy for training candidates to access information on available training options, through a minimalist, sleek, easy-to-navigate site. Therefore, in designing
 this site, I started with a numeber of user stories:
 
-1. As a perspective student, I want to be able to identify if this provider delivers training in the area I'm looking for.
+1. As a prospective student, I want to be able to identify if this provider delivers training in the area I'm looking for.
 2. As a user I want to be able to quickly identify if the specific course I'm looking to undertake is available.
 3. As a user, I want to be able to determine when a particular course will run, and whether there is any space available on that particular iteration.
 
@@ -145,18 +145,20 @@ All CSS and HTML files were passed through code validators. The [CSS Validator](
 against the w3c standards. On each page, there is an ongoing error "Attribute aria-valuamin not allowed on element div" related to the use of [Bootstrap Progress Bars](https://getbootstrap.com/docs/4.3/components/progress/). 
 However, the aria-valuemin is required for the progress bar element to work. So these apparent errors do remain.
 
-A Javascript is used  to validate inputs to the contact page main form. This enforces the inclusion of input to the 'Name' field, as well a proper valid formatting for the 'Email' field. An error notification
-is returned should there be missing, or invalid data entered. The 'required' attribute is added to each of the 'name,' 'email,' and 'message' fields, so if those fields are not filled in, the form will 
-not submit. If all fields are completed with valid information, on submission, a notification Modal will appear to let the user know that the training rep from Eolas will be contact with 24 hours to 
-confirm their position on the programme. I've implemented a script that allows the submission modal to be called when specified after a '#' within the contact page URL. So on submission of the form, 
-'contact.html#submissionModal' calls the contact page with the modal overlayed as illustrated [HERE](https://damien-meere.github.io/frontend-milestone/contact.html#submissionModal). 
+Within every form on the site, there is validation on all user inputs. This enforces the inclusion of inputs to the 'Name' field, proper valid formatting for the 'Email' field, and where required, enforces
+the input of a message. An error notification is returned should there be an element missing, or invalid data entered. The 'required' attribute is added to each of the requisite fields, so if those 
+fields are not filled in, the form will not submit. If all fields are completed with valid information, on submission, a notification Modal will appear to let the user know that the training rep 
+from Eolas will be contact with 24 hours to confirm their position on the programme or respond to their message. I've implemented a script that allows the submission or response modals to be called 
+when specified after a '#' within the page's URL. So, for example, on submission of the form on the contact page, the following URL is called -'contact.html#submissionModal', this calls the contact 
+page with the modal overlayed as illustrated [HERE](https://damien-meere.github.io/frontend-milestone/contact.html#submissionModal). The request response modal on submission of a course request modal
+appears as illustrated [HERE](https://damien-meere.github.io/frontend-milestone/technical.html?#requestResponseModal).
 
 All external links will open in a new tab using 'target="_blank"'.  All external links have been manually tested to ensure that they are pointing to the correct destination.
 
 Internal links on each page were individually tested to ensure they navigated to the requisite page. Within the navbar, within link dropdowns, the links navigate to specific anchors within a particular
 page, so as to allow users to quickly navigate to the requiste area on the site. 
 
-Links to various social media platforms are highlighted in the page footers (i.e. LinkedIn profile, GitHub, twitter etc.). These are provided to illustrattive purposes. I've not built social media 
+Links to various social media platforms are highlighted in the page footers (i.e. LinkedIn profile, GitHub, twitter etc.). These are provided to illustrative purposes. I've not built social media 
 profiles for this training company, so these links refer directly to each platform's homepage so as to demonstrate the functionality.
 
 This site was tested across multiple browsers (Chrome, Safari, Firefox), and on multiple devices (Samsung Galaxy S8/S9/S10, Samsung Galaxy Tab, Apple iPad, iPhone 6/7/8) to ensure compatibility 
@@ -168,9 +170,6 @@ and ensured all elements fit within the requisite space.
 ## Testing-Unresolved_Bugs
 When a users zooms in on a page (settings within the users own browser), this can effect the placement of elements within a page. In some cases, jumbotrons can begin to overlap and 
 obscure certain elements. 
-
-On submisson of the form within the 'Get In Touch' button, at the moment, this just calls the submission modal to say a rep will be in contact, regardless of input. As yet, there is no validation of the 
-inputted information, or checks as to whether information is inputted at all. This will need to be developed further in the next iteration of the site.
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. 
