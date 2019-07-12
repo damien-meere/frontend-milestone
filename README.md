@@ -76,8 +76,8 @@ screens, this button is replaced with a map object. The footer also contains a s
 ![CCNP Modal](assets/images/ccnp_modal.jpg)
 
 Modals such as this are utilised throughout the site to present more specific information on individual programmes, such as course description and current uptake. Within these modals the user can
-input there contact information and resquest a space on a programme. The user inputs in these forms, and all other forms on the site are validated, as illustrated in the image below, so as to ensure
-proper user data is harnessed.
+input their contact information and request a space on a programme. The user inputs in these forms, and all other forms on the site are validated, as illustrated in the image below, so as to ensure
+proper user data is harnessed. Proper formatting is forced on Email addresss, and where required input to a message text area is enforced (see contact page and 'Get in Touch' button)
 
 ![CCNP Modal With Validation](assets/images/ccnp_modal+validation.jpg)
 
